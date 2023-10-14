@@ -210,7 +210,7 @@ export default function Buzzer(props) {
                       />
                     )}
                     <p className="text-3xl text-center py-12 text-foreground">
-                      {t("Waiting for host to start")}
+                      {t("Il faut attendre que la famille Khuu-Vasquez commence le jeu!")}
                     </p>
                   </div>
                 )}
@@ -230,10 +230,10 @@ export default function Buzzer(props) {
             )}
             <div className="flex flex-row justify-center">
               <h1 className="text-3xl text-foreground">
-                {t("team")}:{" "}
+                {t("Équipe")}:{" "}
                 {props.team != null
                   ? game.teams[props.team].name
-                  : t("pick your team")}
+                  : t("Choisir son équipe")}
               </h1>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -266,13 +266,13 @@ export default function Buzzer(props) {
                   } else {
                     let errors = [];
                     props.team == null
-                      ? errors.push(t("pick your team"))
+                      ? errors.push(t("Choisir son équipe"))
                       : null;
                     setError(errors.join(` ${t("and")} `));
                   }
                 }}
               >
-                {t("play")}
+                {t("Rejoindre")}
               </button>
             </div>
             {error != null && error !== "" ? <p>👾 {error}</p> : null}

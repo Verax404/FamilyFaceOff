@@ -1,6 +1,6 @@
 apiVersion: v2
-name: famf
-description: Family Feud Open Source Game
+name: ffo
+description: Family Faceoff Open Source Game
 
 # A chart can be either an 'application' or a 'library' chart.
 #

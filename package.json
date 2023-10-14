@@ -1,5 +1,5 @@
 {
-  "name": "cold_family_feud",
+  "name": "family_faceoff",
   "version": "1.1.0",
   "private": true,
   "dependencies": {
@@ -32,9 +32,7 @@
     "start": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production node server.js",
     "start_local": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local node server.js",
     "start_windows": "set NODE_ENV=local && node server.js",
-    "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js",
-    "build_docker": "docker build -t ghcr.io/joshzcold/cold-family-feud .",
-    "build_docker_push": "docker push ghcr.io/joshzcold/cold-family-feud"
+    "parse-locales": "i18next-scanner --config ./i18n/i18next-scanner.config.js"
   },
   "devDependencies": {
     "i18next-scanner": "^3.0.0",

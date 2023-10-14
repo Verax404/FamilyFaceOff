@@ -73,7 +73,7 @@ function validateCsv(
   }
 }
 
-function csvToColdFamilyFeudFormat(
+function csvToFamilyFaceOffFormat(
   csvData,
   roundCount,
   roundFinalCount,
@@ -346,7 +346,7 @@ export default function CSVLoader(props) {
             <button
               className="text-2xl"
               onClick={() => {
-                csvToColdFamilyFeudFormat(
+                csvToFamilyFaceOffFormat(
                   csvData,
                   roundCount,
                   roundFinalCount,

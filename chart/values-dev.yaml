@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/joshzcold/cold-family-feud
+  repository: https://github.com/Verax404/FamilyFaceOff.git
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"

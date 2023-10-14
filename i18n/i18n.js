@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import format from "./i18n-format.js";
 import translationEN from "../public/locales/en/translation.json";
 import translationES from "../public/locales/es/translation.json";
-import translationID from "../public/locales/id/translation.json";
+
 
 const resources = {
   en: {
@@ -12,9 +12,6 @@ const resources = {
   },
   es: {
     translation: translationES,
-  },
-  id: {
-    translation: translationID,
   },
 };
 i18n
@@ -29,5 +26,5 @@ i18n
     interpolation: {
       format,
     },
-    whitelist: ["es", "en", "id"],
+    whitelist: ["es", "en"],
   });

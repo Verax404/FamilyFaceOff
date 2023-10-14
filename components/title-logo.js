@@ -43,8 +43,8 @@ export default function TitleLogo(props) {
   </metadata>
   <defs id="defs22">
     <linearGradient id="c">
-      <stop offset="0" stop-color="#ff6603" id="stop2" />
-      <stop offset="1" stop-color="#ffd0b2" id="stop4" />
+      <stop offset="0" stop-color="red" id="stop2" />
+      <stop offset="1" stop-color="" id="stop4" />
     </linearGradient>
     <linearGradient id="a">
       <stop offset="0" stop-color="#039" id="stop7" />
@@ -64,7 +64,7 @@ export default function TitleLogo(props) {
       gradientUnits="userSpaceOnUse"
     />
     <linearGradient
-      xlink:href="#c"
+      xlink:href="#b"
       id="e"
       x1="161.01601"
       y1="131.42599"

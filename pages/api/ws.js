@@ -100,12 +100,12 @@ const ioHandler = (req, res) => {
       },
       teams: [
         {
-          name: "Team 1",
+          name: "Équipe 1",
           points: 0,
           mistakes: 0,
         },
         {
-          name: "Team 2",
+          name: "Équipe 2",
           points: 0,
           mistakes: 0,
         },

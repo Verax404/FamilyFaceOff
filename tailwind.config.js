@@ -17,6 +17,8 @@ module.exports = {
           // colors is used here for demonstration purposes
           colors: {
             background: "white",
+            customPurple: '#2F122E',
+            customRed : '#7E0030', 
             success: {
               900: "#14532D",
               700: "#15803D",

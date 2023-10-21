@@ -41,11 +41,8 @@ export default function TitleLogo(props) {
       </cc:Work>
     </rdf:RDF>
   </metadata>
+
   <defs id="defs22">
-    <linearGradient id="c">
-      <stop offset="0" stop-color="red" id="stop2" />
-      <stop offset="1" stop-color="" id="stop4" />
-    </linearGradient>
     <linearGradient id="a">
       <stop offset="0" stop-color="#039" id="stop7" />
       <stop offset="1" stop-color="#3669ff" id="stop9" />
@@ -54,6 +51,17 @@ export default function TitleLogo(props) {
       <stop offset="0" stop-color="#f60" id="stop12" />
       <stop offset="1" stop-color="#ffeb00" id="stop14" />
     </linearGradient>
+    <linearGradient id="c">
+     <stop offset="0" stop-color="#ff6603" id="stop2" />
+      <stop offset="1" stop-color="#ffd0b2" id="stop4" />
+     </linearGradient>
+
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:black" />
+      <stop offset="100%" style="stop-color:white" />
+   </linearGradient>
+
+    // DDDDDDDDDDDDDDDDDDDDD
     <linearGradient
       xlink:href="#a"
       id="d"
@@ -63,8 +71,10 @@ export default function TitleLogo(props) {
       y2="80.245003"
       gradientUnits="userSpaceOnUse"
     />
+
+    // EEEEEEEEEEEEEEEEEEEEEE
     <linearGradient
-      xlink:href="#b"
+      xlink:href="#c"
       id="e"
       x1="161.01601"
       y1="131.42599"
@@ -72,6 +82,8 @@ export default function TitleLogo(props) {
       y2="82.411003"
       gradientUnits="userSpaceOnUse"
     />
+
+    // FFFFFFFFFFFFFFFFF
     <linearGradient
       id="f"
       xlink:href="#b"
@@ -81,6 +93,8 @@ export default function TitleLogo(props) {
       y2="${hasTitle ? 60 : 60}"
       gradientUnits="userSpaceOnUse"
     />
+
+    // GGGGGGGGGGGGGGG
     <linearGradient
       id="g"
       xlink:href="#b"
@@ -90,6 +104,8 @@ export default function TitleLogo(props) {
       y1="${hasTitle ? 100 : 50}"
       y2="${hasTitle ? 140 : 120}"
     />
+
+    // HHHHHHHHHHHHHHHH
     <linearGradient
       id="h"
       xlink:href="#b"
@@ -100,6 +116,8 @@ export default function TitleLogo(props) {
       gradientUnits="userSpaceOnUse"
     />
   </defs>
+
+
   <g id="g120" transform="translate(100,30.0287)">
     <g
       transform="translate(63.490999,-44.629822)"
@@ -116,9 +134,11 @@ export default function TitleLogo(props) {
         fill="url(#d)"
         stroke="#000000"
         stroke-width="0.7"
-        id="ellipse24"
+        id="mainCircle"
         style="fill: url(#d)"
       />
+
+
       <ellipse
         cx="104.889"
         cy="151.70599"
@@ -127,9 +147,11 @@ export default function TitleLogo(props) {
         fill="none"
         stroke="url(#e)"
         stroke-width="8.307"
-        id="ellipse26"
+        id="secondCircle"
         style="stroke: url(#e)"
       />
+
+      
       <ellipse
         cx="102.357"
         cy="151.52499"
@@ -138,10 +160,11 @@ export default function TitleLogo(props) {
         fill="none"
         stroke="#ffffff"
         stroke-width="3.656"
-        id="ellipse28"
+        id="thirdCircle"
       />
     </g>
-    <g fill="#404040" id="g52" transform="translate(-2.3250272e-6,-2.2138205)">
+    
+    <g id="shadow" transform="translate(-2.3250272e-6,-2.2138205)">
       <text
         transform="rotate(-4.3169998)"
         id="text36"
@@ -162,6 +185,8 @@ export default function TitleLogo(props) {
           </tspan>
         </tspan>
       </text>
+
+      
     <text
       transform="rotate(-4.3169998)"
       id="text58"
@@ -186,6 +211,8 @@ export default function TitleLogo(props) {
         </tspan>
       </tspan>
     </text>
+
+    // ------ Shadow of FACE OFF -------
       <text
         id="text50"
          transform="rotate(-4.3169998)"
@@ -212,10 +239,11 @@ export default function TitleLogo(props) {
           </tspan>
         </tspan>
       </text>
+      // -----  FACE OFF TEXT BORDERLINE ------
     <text
       stroke="#000000"
       transform="rotate(-4.3169998)"
-      id="text70"
+      id="faceOffTextContour"
     >
       <tspan
         y="${hasTitle ? 218 : 187}"

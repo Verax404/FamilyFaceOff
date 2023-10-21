@@ -38,15 +38,11 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: www.famf.app
+    - host: www.familyfaceoff.app
       paths:
         - path: /
           pathType: ImplementationSpecific
-    - host: famf.app
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
-    - host: famf.joshcold.duckdns.org
+    - host: familyfaceoff.app
       paths:
         - path: /
           pathType: ImplementationSpecific

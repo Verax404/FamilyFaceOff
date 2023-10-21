@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1278.196" height="825.874" viewBox="0 0 338.189 218.513">
   <defs>
     <linearGradient id="c">
-      <stop offset="0" stop-color="#ff6603"/>
+      <stop offset="0" stop-color="red"/>
       <stop offset="1" stop-color="#ffd0b2"/>
     </linearGradient>
     <linearGradient id="a">
@@ -25,22 +25,22 @@
   </g>
   <g fill="#404040">
     <text y="-26.432" x="22.202" transform="rotate(-4.317 -1615.934 -1726.61) scale(1.61884)">
-      <tspan x="17.682" y="124.146"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-weight="700" font-size="50.8" font-family="C059" text-anchor="middle" stroke-width=".7" stroke-linejoin="round">Cold</tspan></tspan>
+      <tspan x="17.682" y="124.146"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-weight="700" font-size="50.8" font-family="C059" text-anchor="middle" stroke-width=".7" stroke-linejoin="round"></tspan></tspan>
     </text>
     <text transform="rotate(-4.317 -1223.55 -364.29) scale(1.61884)" x="89.713">
       <tspan style="-inkscape-font-specification:'C059 Bold'" y="150.578" x="78.794" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke-width=".7" stroke-linejoin="round">Family</tspan></tspan>
     </text>
     <text y="59.119" x="22.659" transform="rotate(-4.317 -1615.934 -1726.61) scale(1.61884)">
-      <tspan style="-inkscape-font-specification:'C059 Bold'" y="209.696" x="13.11" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke-width=".7" stroke-linejoin="round"><tspan style="-inkscape-font-specification:'C059 Bold'">Feud</tspan></tspan></tspan>
+      <tspan style="-inkscape-font-specification:'C059 Bold'" y="209.696" x="13.11" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke-width=".7" stroke-linejoin="round"><tspan style="-inkscape-font-specification:'C059 Bold'">Face Off</tspan></tspan></tspan>
     </text>
   </g>
   <text x="22.202" y="-26.432" fill="url(#f)" transform="rotate(-4.317 -1640.363 -1681.765) scale(1.61884)">
-    <tspan style="-inkscape-font-specification:'C059 Bold'" y="124.146" x="17.682" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke="#000" stroke-width=".7" stroke-linejoin="round">Cold</tspan></tspan>
+    <tspan style="-inkscape-font-specification:'C059 Bold'" y="124.146" x="17.682" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke="#000" stroke-width=".7" stroke-linejoin="round"></tspan></tspan>
   </text>
   <text x="89.713" transform="rotate(-4.317 -1247.978 -319.445) scale(1.61884)" fill="url(#g)">
     <tspan style="-inkscape-font-specification:'C059 Bold'" y="150.578" x="78.794" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke="#000" stroke-width=".7" stroke-linejoin="round">Family</tspan></tspan>
   </text>
   <text y="59.119" x="22.659" fill="url(#h)" stroke="#000" transform="rotate(-4.317 -1640.363 -1681.765) scale(1.61884)">
-    <tspan style="-inkscape-font-specification:'C059 Bold'" y="209.696" x="13.11" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke-width=".7" stroke-linejoin="round">Feud</tspan></tspan>
+    <tspan style="-inkscape-font-specification:'C059 Bold'" y="209.696" x="13.11" font-weight="700" font-family="C059"><tspan style="-inkscape-font-specification:'C059 Bold';text-align:center" font-size="50.8" text-anchor="middle" stroke-width=".7" stroke-linejoin="round">Face Off</tspan></tspan>
   </text>
 </svg>

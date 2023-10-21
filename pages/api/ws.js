@@ -125,7 +125,7 @@ const ioHandler = (req, res) => {
           rooms[room].connections[rp].send(data);
         });
       } else {
-        console.error("room code not found in rooms", room);
+        console.error("Room Code introuvable", room);
       }
     };
 

@@ -26,7 +26,7 @@ export default function Title(props) {
     return players;
   }
   return (
-    <div className="bg-gradient-to-t from-red-900 via-black-200 to-blue-900 items-center justify-center flex min-h-screen min-w-screen"> {/* BACKGROUND - TITLE GAME */}
+    <div className="bg-gradient-to-t from-customRed via-black-200 to-customPurple items-center justify-center flex min-h-screen min-w-screen"> {/* BACKGROUND - TITLE GAME */}
       <div
         style={{
           width: titleSize,
@@ -48,11 +48,13 @@ export default function Title(props) {
               {props.game.room}
             </p>
           </div>
-          <div className="flex flex-row text-center">
+          {/* TEAM SECTION */}
+          <div className="flex flex-row">
             {[0, 1].map(function(n) {
               return (
-                <div className="flex-grow">
-                  <p className="text-4xl flex-grow text-foreground font-bold">
+                <div className="flex-grow bg-red-400 justify-center text-center" style={{ border: "2px solid black", alignContent: "center" }}>
+                  {/* TEAM TITLE */}
+                  <p className="text-3xl flex-grow font-bold" style={{color:"WHITE"}}>
                     {" "}
                     {props.game.teams[n].name}
                   </p>
@@ -60,7 +62,7 @@ export default function Title(props) {
                   {/* PLAYERS NAME */}
                     {returnTeamMates(n).map((m) => (
                       <div className="bg-secondary-500 m-2 rounded w-32 p-2"> {/* Change bg-secondary-500 to bg-blue-500 */}
-                        <p className="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">{/* Make text bigger : text-2xl */}
+                        <p className="font-bold overflow-hidden text-ellipsis whitespace-nowrap" style={{color:"black"}}>{/* Make text bigger : text-2xl */}
                           {m}
                         </p>
                       </div>

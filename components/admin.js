@@ -26,7 +26,7 @@ function TitleMusic() {
     <div className="flex flex-row items-center space-x-5  p-5">
       <h3 className="text-2xl text-foreground">{t("Title Music")}</h3>
       <audio controls>
-        <source src="title.mp3" type="audio/mpeg" />
+        <source src="title-theme.mp3" type="audio/mpeg" />
       </audio>
     </div>
   );

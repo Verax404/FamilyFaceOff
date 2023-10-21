@@ -230,7 +230,7 @@ export default function Home() {
     <>
       <Head>
         <title>{t("Family Face-Off")}</title>
-        <link rel="icon" href="x.png"></link>
+        <link rel="icon" href="gneh-official.png"></link>
         <meta name="author" content="Sebastian Vasquez" />
         <meta
           name="description"
@@ -242,6 +242,8 @@ export default function Home() {
           as="font"
           crossOrigin=""
         />
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
       </Head>
       <main>
         <div

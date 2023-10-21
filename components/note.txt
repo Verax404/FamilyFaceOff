@@ -1,0 +1,41 @@
+at title-logo.js line 228
+
+
+// ------ Shadow of Family -------
+      <text
+        x="89.712997"
+        transform="rotate(-4.3169998)"
+        id="text42"
+      >
+        <tspan
+          style="-inkscape-font-specification: 'C059 Bold'"
+          y="${hasTitle ? 148 : 124}"
+          x="158"
+          font-weight="700"
+          font-family="Mario"
+          id="tspan40"
+        >
+          <tspan
+            style="
+              -inkscape-font-specification: 'C059 Bold';
+              text-align: center;
+            "
+            font-size="${adjustTextSize(t("family"))}"
+            text-anchor="middle"
+            stroke-width="0.7"
+            stroke-linejoin="round"
+            fill="url(#11)"
+            id="tspan38"
+          >
+            ${t("family")}
+          </tspan>
+        </tspan>
+      </text>
+
+color
+       <linearGradient id="11" x1="0%" y1="0%" x2="100%" y2="100%">
+     <stop offset="0%" style="stop-color: #074973" />
+     <stop offset="40%" style="stop-color: #074973" />
+     <stop offset="60%" style="stop-color: #CC0000" />
+     <stop offset="100%" style="stop-color: #CC0000" />
+   </linearGradient>

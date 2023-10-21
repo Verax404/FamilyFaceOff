@@ -6,7 +6,7 @@ export default function TeamName(props) {
         minWidth: 0,
       }}
     >
-      <div className="bg-gradient-to-tr from-primary-900 to-primary-500">
+      <div className="bg-gradient-to-tr from-custBlue-900 to-custBlue-500">
         <p
           className="p-5 uppercase text-white"
           style={{

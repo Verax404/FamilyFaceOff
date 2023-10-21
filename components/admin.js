@@ -6,7 +6,6 @@ import Players from "./Admin/players";
 import AdminSettings from "./Admin/settings";
 import LanguageSwitcher from "./language";
 import CSVLoader from "./Admin/csv-loader";
-import csvStringToArray from "./Admin/csv-loader"
 import { Buffer } from "buffer";
 import { BSON } from "bson";
 

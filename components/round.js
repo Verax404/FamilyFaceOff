@@ -9,7 +9,7 @@ function RoundPointTally(props) {
   return (
     <div
       style={{ borderWidth: 12 }}
-      className="border-black bg-gradient-to-tr from-primary-900 to-primary-500 p-1"
+      className="border-black bg-gradient-to-tr from-custYellow to-custYellow p-1"
     >
       {/* text within svg can resize the text based on container*/}
       <svg

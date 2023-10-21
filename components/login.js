@@ -15,7 +15,7 @@ export default function Login(props) {
       
       <div className="flex flex-col">
         <div className="flex flex-row justify-between text-1xl px-2">
-          <p className="uppercase" style={{ fontWeight: 'bold' }}>{t("room code")}</p>
+          <p className="uppercase" style={{ fontWeight: 'bold', color:"white" }}>{t("room code")}</p>
         </div>
 
         <input
@@ -32,7 +32,7 @@ export default function Login(props) {
 
       <div className="flex flex-col">
         <div className="flex flex-row justify-between text-1xl px-2">
-          <p className="uppercase" style={{ fontWeight: 'bold' }}>{t("name")}</p>
+          <p className="uppercase" style={{ fontWeight: 'bold', color:"white" }}>{t("name")}</p>
           <p>{12 - props.playerName.length}</p>
         </div>
         <input
@@ -48,7 +48,7 @@ export default function Login(props) {
       </div>
       <div className="flex flex-row items-center space-x-5">
         <button
-          className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
+          className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"style={{ fontWeight: 'bold', color:"white" }} 
           onClick={() => {
             props.joinRoom();
           }}

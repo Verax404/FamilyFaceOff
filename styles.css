@@ -22,3 +22,19 @@
   font-style: bold;
   font-display: swap;
 }
+@font-face {
+  font-family: "Mario";
+  src: url("/fonts/Custom/SuperMario256.ttf");
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rufing";
+  src: url("/fonts/Custom/Rufing.otf");
+  font-display: swap;
+}
+
+.custom-background {
+  background-color: #262626; 
+}

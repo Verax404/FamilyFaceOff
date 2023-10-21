@@ -113,7 +113,7 @@ export default function Buzzer(props) {
     return (
       <>
         <button
-          className="shadow-md rounded-lg p-2 bg-secondary-900 hover:bg-secondary-300 text-1xl font-bold uppercase w-24 self-end"
+          className="shadow-md rounded-lg p-2 hover:bg-red-300 text-1xl font-bold uppercase w-24 self-end" style={{background :"#D6D58E"}}
           onClick={() => {
             send({ action: "quit" });
           }}
@@ -210,7 +210,7 @@ export default function Buzzer(props) {
                       />
                     )}
                     <p className="text-3xl text-center py-12 text-foreground">
-                      {t("Il faut attendre que la famille Khuu-Vasquez commence le jeu!")}
+                      {t("Waiting for host to start")}
                     </p>
                   </div>
                 )}
@@ -230,15 +230,15 @@ export default function Buzzer(props) {
             )}
             <div className="flex flex-row justify-center">
               <h1 className="text-3xl text-foreground">
-                {t("Équipe")}:{" "}
+                {t("team")}:{" "}
                 {props.team != null
                   ? game.teams[props.team].name
-                  : t("Choisir son équipe")}
+                  : t("pick your team")}
               </h1>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <button
-                className="hover:shadow-md rounded-md bg-primary-200 p-5"
+                className="hover:shadow-md rounded-md p-5" style={{background : "#005C53"}}
                 onClick={() => {
                   cookieCutter.set("session", `${props.room}:${props.id}:0`);
                   props.setTeam(0);
@@ -248,7 +248,7 @@ export default function Buzzer(props) {
               </button>
 
               <button
-                className="hover:shadow-md rounded-md bg-primary-200 p-5"
+                className="hover:shadow-md rounded-md p-5" style={{background : "#005C53"}}
                 onClick={() => {
                   cookieCutter.set("session", `${props.room}:${props.id}:1`);
                   props.setTeam(1);
@@ -259,20 +259,20 @@ export default function Buzzer(props) {
             </div>
             <div className="flex flex-row justify-center">
               <button
-                className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"
+                className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"style={{background : "#9FC131"}}
                 onClick={() => {
                   if (props.team != null) {
                     send({ action: "registerbuzz", team: props.team });
                   } else {
                     let errors = [];
                     props.team == null
-                      ? errors.push(t("Choisir son équipe"))
+                      ? errors.push(t("pick your team"))
                       : null;
                     setError(errors.join(` ${t("and")} `));
                   }
                 }}
               >
-                {t("Rejoindre")}
+                {t("join")}
               </button>
             </div>
             {error != null && error !== "" ? <p>👾 {error}</p> : null}

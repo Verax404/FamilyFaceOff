@@ -5,7 +5,7 @@
   "Changing rounds also clears buzzers": "El cambio de rondas también borra los timbres.",
   "Buzzer Order": "Orden del zumbador",
   "pick your team": "elige tu equipo",
-  "Waiting for host to start": "Esperando que el anfitrión comience",
+  "Waiting for host to start": "¡Esperemos a que la familia Khuu-Vasquez comience el juego!",
   "Back To": "De regreso",
   "Change Me": "Cambiame",
   "Clear Buzzers": "Zumbadores claros",
@@ -15,11 +15,11 @@
   "new-cold-feud": "descargar-archivo",
   "english": "Inglés",
   "error": "error",
-  "family": "familia",
+  "family": "FAMILY",
   "Fast Money": "dinero rápido",
-  "feud": "feudo",
+  "feud": "FACE OFF",
   "Final Round": "ronda final",
-  "Family Feud": "Fría disputa familiar",
+  "Family Feud": "FAMILY FACE OFF",
   "Gets Points": "Obtiene puntos",
   "Hide First Round Answers": "Ocultar respuestas de la primera ronda",
   "language": "lenguaje",
@@ -81,5 +81,6 @@
   "Team 1": "Equipo 1",
   "Team 2": "Equipo 2",
   "Points": "Puntos",
-  "players": "jugadores"
+  "players": "jugadores",
+  "join" : "entrar"
 }

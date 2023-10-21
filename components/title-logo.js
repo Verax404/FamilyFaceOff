@@ -43,34 +43,24 @@ export default function TitleLogo(props) {
   </metadata>
 
   <defs id="defs22">
-    <linearGradient id="a">
-      <stop offset="0" stop-color="#039" id="stop7" />
-      <stop offset="1" stop-color="#3669ff" id="stop9" />
-    </linearGradient>
     <linearGradient id="b">
-      <stop offset="0" stop-color="#f60" id="stop12" />
-      <stop offset="1" stop-color="#ffeb00" id="stop14" />
+      <stop offset="0" stop-color="#FFFCE5" id="stop12" />
+      <stop offset="1" stop-color="#FFFCE5" id="stop14" />
     </linearGradient>
+    
     <linearGradient id="c">
-     <stop offset="0" stop-color="#ff6603" id="stop2" />
+     <stop offset="0" stop-color="#DBF227" id="stop2" />
       <stop offset="1" stop-color="#ffd0b2" id="stop4" />
      </linearGradient>
 
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:black" />
-      <stop offset="100%" style="stop-color:white" />
+
+     <linearGradient id="11" x1="0%" y1="0%" x2="100%" y2="100%">
+     <stop offset="0%" style="stop-color: #042940" />
+     <stop offset="40%" style="stop-color: #042940" />
+     <stop offset="60%" style="stop-color: #9FC131" />
+     <stop offset="100%" style="stop-color: #9FC131" />
    </linearGradient>
 
-    // DDDDDDDDDDDDDDDDDDDDD
-    <linearGradient
-      xlink:href="#a"
-      id="d"
-      x1="119.818"
-      y1="182.24699"
-      x2="96.176003"
-      y2="80.245003"
-      gradientUnits="userSpaceOnUse"
-    />
 
     // EEEEEEEEEEEEEEEEEEEEEE
     <linearGradient
@@ -126,18 +116,18 @@ export default function TitleLogo(props) {
       paint-order="stroke fill markers"
       id="g30"
     >
+    // ----------- MAIN CIRCLE -----------
       <ellipse
         cx="105.604"
         cy="151.672"
         rx="168.745"
         ry="95.946999"
-        fill="url(#d)"
+        fill="url(#11)"
         stroke="#000000"
         stroke-width="0.7"
         id="mainCircle"
-        style="fill: url(#d)"
+        style="fill: url(#11)"
       />
-
 
       <ellipse
         cx="104.889"
@@ -146,102 +136,51 @@ export default function TitleLogo(props) {
         ry="85.606003"
         fill="none"
         stroke="url(#e)"
-        stroke-width="8.307"
+        stroke-width="5.307"
         id="secondCircle"
-        style="stroke: url(#e)"
+        style="stroke: black"
       />
 
-      
       <ellipse
         cx="102.357"
         cy="151.52499"
         rx="135.53101"
         ry="77.061996"
         fill="none"
-        stroke="#ffffff"
-        stroke-width="3.656"
+        stroke="white"
+        stroke-width="2.656"
         id="thirdCircle"
       />
     </g>
-    
-    <g id="shadow" transform="translate(-2.3250272e-6,-2.2138205)">
-      <text
-        transform="rotate(-4.3169998)"
-        id="text36"
-      >
-        <tspan x="162" y="84" id="tspan34">
-          <tspan
-            style="
-              -inkscape-font-specification: 'C059 Bold';
-              text-align: center;
-            "
-            font-weight="700"
-            font-size="${adjustTextSize(props.insert)}"
-            font-family="C059"
-            text-anchor="middle"
-            id="tspan32"
-          >
-            ${props.insert}
-          </tspan>
-        </tspan>
-      </text>
-
-      
+      // ------ Text of Family -------
     <text
+      stroke="black"
       transform="rotate(-4.3169998)"
-      id="text58"
+      id="text64"
     >
       <tspan
-        style="fill:url(#f);"
-        y="80.058754"
-        x="160.03912"
+        y="${hasTitle ? 148 : 120}"
+        x="155.30832"
         font-weight="700"
-        font-family="C059"
-        id="tspan56"
+        font-family="Rufing"
+        id="tspan62"
       >
         <tspan
-          style="fill: url(#f);"
-          font-size="${adjustTextSize(props.insert)}"
+          style="fill: url(#g);"
+          font-size="${adjustTextSize(t("family"))}"
           text-anchor="middle"
-          stroke="#000000"
-          stroke-width="1.13319"
-          id="tspan54"
+          stroke-width="1"
+          stroke-linejoin="round"
+          id="tspan60"
         >
-          ${props.insert}
+          ${t("family")}
         </tspan>
       </tspan>
     </text>
 
-    // ------ Shadow of FACE OFF -------
-      <text
-        id="text50"
-         transform="rotate(-4.3169998)"
-      >
-        <tspan
-          y="${hasTitle ? 218 : 190}"
-          font-weight="700"
-          x="159"
-          font-family="C059"
-          id="tspan48"
-        >
-          <tspan
-            text-anchor="middle"
-            stroke-width="0.7"
-            font-size="${adjustTextSize(t("feud"))}"
-            stroke-linejoin="round"
-            id="tspan46"
-          >
-            <tspan
-              id="tspan44"
-            >
-              ${t("feud")}
-            </tspan>
-          </tspan>
-        </tspan>
-      </text>
-      // -----  FACE OFF TEXT BORDERLINE ------
+    // ------ Text of FACE OFF -------
     <text
-      stroke="#000000"
+      stroke="black"
       transform="rotate(-4.3169998)"
       id="faceOffTextContour"
     >
@@ -249,7 +188,7 @@ export default function TitleLogo(props) {
         y="${hasTitle ? 218 : 187}"
         x="156"
         font-weight="700"
-        font-family="C059"
+        font-family="Rufing"
         id="tspan68"
       >
         <tspan
@@ -260,69 +199,17 @@ export default function TitleLogo(props) {
           "
          font-size="${adjustTextSize(t("feud"))}"
           text-anchor="middle"
-          stroke-width="1.13319"
+          stroke-width="1"
           id="tspan66"
         >
           ${t("feud")}
         </tspan>
       </tspan>
     </text>
-
-      <text
-        x="89.712997"
-        transform="rotate(-4.3169998)"
-        id="text42"
-      >
-        <tspan
-          style="-inkscape-font-specification: 'C059 Bold'"
-          y="${hasTitle ? 148 : 124}"
-          x="158"
-          font-weight="700"
-          font-family="C059"
-          id="tspan40"
-        >
-          <tspan
-            style="
-              -inkscape-font-specification: 'C059 Bold';
-              text-align: center;
-            "
-            font-size="${adjustTextSize(t("family"))}"
-            text-anchor="middle"
-            stroke-width="0.7"
-            stroke-linejoin="round"
-            id="tspan38"
-          >
-            ${t("family")}
-          </tspan>
-        </tspan>
-      </text>
-
-    <text
-      transform="rotate(-4.3169998)"
-      id="text64"
-    >
-      <tspan
-        y="${hasTitle ? 148 : 120}"
-        x="155.30832"
-        font-weight="700"
-        font-family="C059"
-        id="tspan62"
-      >
-        <tspan
-          style="fill: url(#g);"
-          font-size="${adjustTextSize(t("family"))}"
-          text-anchor="middle"
-          stroke="#000000"
-          stroke-width="1.13319"
-          stroke-linejoin="round"
-          id="tspan60"
-        >
-          ${t("family")}
-        </tspan>
-      </tspan>
-    </text>
     </g>
   </g>
+
+  
 </svg>
   `;
   return (

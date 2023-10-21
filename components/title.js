@@ -26,7 +26,7 @@ export default function Title(props) {
     return players;
   }
   return (
-    <div className="bg-gradient-to-t from-customRed via-black-200 to-customPurple items-center justify-center flex min-h-screen min-w-screen"> {/* BACKGROUND - TITLE GAME */}
+    <div className="bg-gradient-to-t from-cBlack via-cPurple to-cBlacky items-center justify-center flex min-h-screen min-w-screen"> {/* BACKGROUND - TITLE GAME */}
       <div
         style={{
           width: titleSize,
@@ -44,7 +44,7 @@ export default function Title(props) {
           </div>
           {/* ID GAME */}
           <div className="flex flex-row justify-center text-center">
-            <p className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500"> {/* Change bg-secondary-500 to bg-red-500 */}
+            <p className="text-5xl font-bold p-5 text-foreground rounded" style={{background:"#042940"}}> 
               {props.game.room}
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Title(props) {
           <div className="flex flex-row">
             {[0, 1].map(function(n) {
               return (
-                <div className="flex-grow bg-red-400 justify-center text-center" style={{ border: "2px solid black", alignContent: "center" }}>
+                <div className="flex-grow justify-center text-center" style={{ background:"#005C53", border: "2px solid black", alignContent: "center" }}>
                   {/* TEAM TITLE */}
                   <p className="text-3xl flex-grow font-bold" style={{color:"WHITE"}}>
                     {" "}
@@ -61,7 +61,7 @@ export default function Title(props) {
                   <div className="flex flex-wrap flex-row justify-center">
                   {/* PLAYERS NAME */}
                     {returnTeamMates(n).map((m) => (
-                      <div className="bg-secondary-500 m-2 rounded w-32 p-2"> {/* Change bg-secondary-500 to bg-blue-500 */}
+                      <div className=" m-2 rounded w-32 p-2" style={{background:"#D6D58E"}}> {/* Change bg-secondary-500 to bg-blue-500 */}
                         <p className="font-bold overflow-hidden text-ellipsis whitespace-nowrap" style={{color:"black"}}>{/* Make text bigger : text-2xl */}
                           {m}
                         </p>

@@ -190,7 +190,7 @@ export default function TitleLogo(props) {
         y="${hasTitle ? 218 : 187}"
         x="156"
         font-weight="700"
-        font-family="Rufing2"
+        font-family="Rufing"
         id="tspan68"
       >
         <tspan

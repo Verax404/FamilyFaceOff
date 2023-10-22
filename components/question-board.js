@@ -13,7 +13,7 @@ export default function QuestionBoard(props) {
           <div className=" uppercase items-center text-center rounded border-2 font-extrabold">
             {x.trig ? (
               // answered question - TABLEAU
-              <div className="h-full bg-gradient-to-t from-custBlue-900 via-custBlue-500 to-custBlue-700"> 
+              <div className="h-full bg-gradient-to-t from-custBlue-500 via-custBlue-200 to-custBlue-300"> 
                 <div className="flex h-full items-center justify-center">
                   <p
                     className="text-2xl text-white px-5 flex-grow"
@@ -21,7 +21,7 @@ export default function QuestionBoard(props) {
                   >
                     {x.ans}
                   </p>
-                  <div className="bg-gradient-to-t from-custBlue-700 to-custBlue-500 border-l-2 h-full text-center items-center justify-center p-5 flex">
+                  <div className="bg-gradient-to-t from-custBlue-500 to-custBlue- border-l-2 h-full text-center items-center justify-center p-5 flex">
                     <p
                       className="text-4xl text-white"
                       style={{ textShadow: "1px 2px 4px black" }}

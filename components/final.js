@@ -1,31 +1,18 @@
 import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 function Answers(props) {
   const { t } = useTranslation();
   return props.round.map((x) => (
-    <div
-      className="flex flex-row space-x-2"
-      style={{
-        minWidth: 0,
-      }}
-    >
+    <div className="flex flex-row space-x-2" style={{ minWidth: 0 }}>
       <div
-        className="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded  flex-grow flex-shrink"
+        className="bg-fastm-holder font-extrabold uppercase items-center text-center p-5 rounded flex-grow flex-shrink"
         style={{ minHeight: 70, minWidth: 0 }}
       >
         {x.revealed ? (
-          <p
-            className={`text-2xl ${props.hide ? "invisible" : ""}`}
-            style={{
-              whiteSpace: "nowrap",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              flex: 1,
-            }}
-          >
+          <p className={`text-2xl ${props.hide ? "invisible" : ""}`} style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", flex: 1 }}>
             {x.input}
           </p>
         ) : null}
@@ -43,25 +30,30 @@ function Answers(props) {
 
 export default function Final(props) {
   const { t } = useTranslation();
-  let total = 0;
+  const [isCelebrating, setIsCelebrating] = useState(false);
   const audioElement = new Audio("congrat.mp3");
+
+  let total = 0;
 
   props.game.final_round.forEach((round) => {
     console.debug("round one total: ");
     total = total + parseInt(round.points);
   });
+
   props.game.final_round_2.forEach((round) => {
     console.debug("round two total", total);
     total = total + parseInt(round.points);
   });
 
   useEffect(() => {
-    if (total >= 200) {
+    if (total >= 200 && !isCelebrating) {
+      setIsCelebrating(true);
       audioElement.play().catch((error) => {
         console.error("Audio playback error:", error);
       });
     }
-  }, [total]);
+  }, [total, isCelebrating]);
+
   return (
     <div className="">
       <div className="text-center my-10">
@@ -74,7 +66,7 @@ export default function Final(props) {
         )}
       </div>
       <div
-        className="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text "
+        className="border-8 bg-fastm-background p-5 border-fastm-holder rounded-3xl grid lg:grid-flow-col gap-3 text-fastm-text"
         style={{}}
       >
         <div className="grid lg:grid-flow-row gap-3">
@@ -109,8 +101,10 @@ export default function Final(props) {
       {/* WIN TEXT */}
       <div className="text-center">
         {total >= 200 ? (
-          <div>
-            <p className="text-9xl text-success-500">{t("win")}</p>
+          <div className={`celebrate-animation`}>
+            <p className="text-9xl text-success-500" style={{ fontFamily: 'Smile' }}>
+              {t("win")}
+            </p>
           </div>
         ) : null}
       </div>

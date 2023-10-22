@@ -9,7 +9,7 @@ function RoundPointTally(props) {
   return (
     <div
       style={{ borderWidth: 12 }}
-      className="border-black bg-gradient-to-tr from-custYellow to-custYellow p-1"
+      className="border-black bg-cbeige text-black p-1"
     >
       {/* text within svg can resize the text based on container*/}
       <svg
@@ -22,7 +22,7 @@ function RoundPointTally(props) {
           fontWeight={props.fontWeight}
           fontSize={size}
           pointerEvents="auto"
-          fill="white"
+          fill="black"
           textAnchor="middle"
           dominantBaseline="middle"
         >
@@ -47,7 +47,7 @@ export default function Round(props) {
         />
         <RoundPointTally points={props.game.teams[1].points} />
       </div>
-      
+
       <div className="flex flex-row justify-center">
         {round.multiply > 1 ? (
           <div>

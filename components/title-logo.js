@@ -166,16 +166,16 @@ export default function TitleLogo(props) {
         font-family="Rufing"
         id="tspan62"
       >
-        <tspan
-          style="fill: url(#g);"
-          font-size="${adjustTextSize(t("family"))}"
-          text-anchor="middle"
-          stroke-width="1"
-          stroke-linejoin="round"
-          id="tspan60"
-        >
-          ${t("family")}
-        </tspan>
+      <tspan
+      style="fill: url(#g); font-family: 'Rufing';"
+      font-size="${adjustTextSize(t("family"))}"
+      text-anchor="middle"
+      stroke-width="1"
+      stroke-linejoin="round"
+      id="tspan60"
+    >
+      ${t("family")}
+    </tspan>
       </tspan>
     </text>
 

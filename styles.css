@@ -35,6 +35,36 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Smile";
+  src: url("/fonts/Custom/smile.otf");
+  font-display: swap;
+}
+
 .custom-background {
   background-color: #262626; 
+}
+
+.celebrate-animation {
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@font-face {
+  font-family: 'Rufing'; /* Replace with your font's name */
+  src: url('../../Game/FamilyFaceOff/public/Rufing.woff') format('woff');
+  /* Adjust the src path to the actual location of your font file */
+  font-weight: normal;
+  font-style: normal;
 }

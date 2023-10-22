@@ -710,7 +710,7 @@ export default function Admin(props) {
                   {/* FINAL ROUND BUTTON */}
                   {game.final_round ? (
                     <button
-                      className="border-4 rounded p-10 text-2xl flex-grow bg-secondary-300 text-foreground"
+                      className="border-4 rounded p-10 text-2xl flex-grow bg-secondary-200 text-foreground"
                       onClick={() => {
                         game.title = false;
                         game.is_final_round = true;
@@ -829,10 +829,10 @@ export default function Admin(props) {
               {!game.is_final_round ? (
                 // GAME BOARD CONTROLS
                 <div>
-                  <div className="flex flex-col space-y-2 px-10 pt-5">
+                  <div className="flex flex-col space-y-2 px-10 pt-8 pb-8">
                     {/* QUESTION */}
-                    <p className="text-3xl font-bold text-foreground">
-                      {current_round.question}
+                    <p className="text-3xl font-bold text-foreground pt-3 pb-3">
+                      -- {current_round.question} --
                     </p>
                     {/* POINT TRACKER */}
                     <div className="flex flex-row border-4 p-2 space-x-5 items-center justify-between">
@@ -874,7 +874,7 @@ export default function Admin(props) {
                     {current_round.answers.map((x) => (
                       <div
                         className={`${
-                          x.trig ? "bg-secondary-500" : "bg-primary-700"
+                          x.trig ? "bg-custBlue-700" : "bg-secondary-300"
                           } font-extrabold uppercase rounded border-2 text-2xl `}
                       >
                         <button

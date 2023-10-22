@@ -384,7 +384,7 @@ const ioHandler = (req, res) => {
                 JSON.stringify({ action: "clearbuzzers" })
               );
             }
-            // get the current time to compare when users buzz in
+            // get the current time to compare when users bouton in
             wss.broadcast(
               message.room,
               JSON.stringify({ action: "data", data: game })
@@ -459,7 +459,7 @@ const ioHandler = (req, res) => {
                 );
               }
             );
-          } else if (message.action === "buzz") {
+          } else if (message.action === "bouton") {
             let game = rooms[message.room].game;
             let time =
               new Date().getTime() - game.registeredPlayers[message.id].latency;
@@ -468,7 +468,7 @@ const ioHandler = (req, res) => {
             } else {
               for (const [i, b] of game.buzzed.entries()) {
                 if (b.time < time) {
-                  // saved buzzed was quicker than incoming buzz
+                  // saved buzzed was quicker than incoming bouton
                   if (i === game.buzzed.length - 1) {
                     game.buzzed.push({ id: message.id, time: time });
                     break;

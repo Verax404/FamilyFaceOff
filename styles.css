@@ -63,7 +63,7 @@
 
 @font-face {
   font-family: 'Rufing2'; /* Replace with your font's name */
-  src: url('/public/Rufing.woff2') format('woff2');
+  src: url('/Rufing.woff2') format('woff2');
   /* Adjust the src path to the actual location of your font file */
   font-weight: normal;
   font-style: normal;

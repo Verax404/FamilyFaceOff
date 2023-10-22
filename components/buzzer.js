@@ -132,13 +132,13 @@ export default function Buzzer(props) {
                 <div className="" style={{ width: "100%", textAlign: "center" }}>
                   {buzzed ? (
                     <img
-                      style={{ width: "50%", display: "inline-block" }}
+                      style={{ width: "100%", display: "inline-block" }}
                       src="buzzed.svg"
                     />
                   ) : (
                     <img
                       className="cursor-pointer"
-                      style={{ width: "50%", display: "inline-block" }}
+                      style={{ width: "100%", display: "inline-block" }}
                       onClick={() => {
                         send({ action: "buzz", id: props.id });
                       }}
@@ -154,10 +154,12 @@ export default function Buzzer(props) {
                 </div>
                 {/* END Buzzer Section TODO replace with function*/}
                 <div className="flex flex-row justify-between min-w-full space-x-3">
-              {/* TEAM NAME */}
+              {/* TEAM NAME
                   <TeamName game={game} team={0} />
                   <TeamName game={game} team={1} />
+                */}
                 </div>
+                
                 {/* HIDES ANSWERS BOARD FROM PLAYER ------------
                 <div className="">
                   <QuestionBoard round={game.rounds[game.round]} />

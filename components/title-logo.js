@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 
+
 function adjustTextSize(text, limit = 8, startingSize = 80) {
   if (text.length > limit) {
     let shrink = 0;
@@ -166,16 +167,16 @@ export default function TitleLogo(props) {
         font-family="Rufing"
         id="tspan62"
       >
-      <tspan
-      style="fill: url(#g); font-family: 'Rufing';"
-      font-size="${adjustTextSize(t("family"))}"
-      text-anchor="middle"
-      stroke-width="1"
-      stroke-linejoin="round"
-      id="tspan60"
-    >
-      ${t("family")}
-    </tspan>
+        <tspan
+          style="fill: url(#g);"
+          font-size="${adjustTextSize(t("family"))}"
+          text-anchor="middle"
+          stroke-width="1"
+          stroke-linejoin="round"
+          id="tspan60"
+        >
+          ${t("family")}
+        </tspan>
       </tspan>
     </text>
 

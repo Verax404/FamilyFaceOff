@@ -123,8 +123,10 @@ export default function Buzzer(props) {
         {buzzerReg !== null ? (
           <>
             {!game.title && !game.is_final_round ? (
+
+
               <div className="pt-8 flex flex-col space-y-5">
-                <Round game={game} />
+                {/*<Round game={game} />*/}
 
                 {/* Buzzer Section TODO replace with function*/}
                 <div className="" style={{ width: "100%", textAlign: "center" }}>
@@ -152,45 +154,16 @@ export default function Buzzer(props) {
                 </div>
                 {/* END Buzzer Section TODO replace with function*/}
                 <div className="flex flex-row justify-between min-w-full space-x-3">
+              {/* TEAM NAME */}
                   <TeamName game={game} team={0} />
                   <TeamName game={game} team={1} />
                 </div>
+                {/* HIDES ANSWERS BOARD FROM PLAYER ------------
                 <div className="">
                   <QuestionBoard round={game.rounds[game.round]} />
                 </div>
-                <div className="border-4 rounded space-y-2 text-center flex-grow w-full">
-                  <div className="flex flex-col">
-                    {game.buzzed.map((x, i) => (
-                      <div
-                        key={i}
-                        className="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
-                      >
-                        <div className="flex-grow">
-                          <p className="truncate w-20 text-left text-foreground">
-                            {t("number", { count: i + 1 })}.{" "}
-                            {game.registeredPlayers[x.id].name}
-                          </p>
-                        </div>
-                        <div className="flex-grow">
-                          <p className="truncate w-20 text-left text-foreground">
-                            {game.teams[game.registeredPlayers[x.id].team].name}
-                          </p>
-                        </div>
-                        <div className="flex-grow">
-                          <p className="truncate w-20 text-left text-foreground">
-                            {t("number", {
-                              count: (
-                                ((x.time - game.tick) / 1000) %
-                                60
-                              ).toFixed(2),
-                            })}{" "}
-                            {t("second")}
-                          </p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+              */}
+                
               </div>
             ) : (
               <>

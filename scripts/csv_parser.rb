@@ -6,7 +6,7 @@
 # or
 # Question, answer1, answer2  <-- in point_generator mode
 
-# outputs a large amount of games in cold_family_feud .json format
+# outputs a large amount of games in family_face_off .json format
 # giving a list of .csv files matching the csv format above
 
 
@@ -77,7 +77,7 @@ class CSVParser
   end
 
   # after gathering up rows 
-  # create games using cold family feud format
+  # create games using family faceoff format
   #
   # using round number + fast money (4 questions)
   # create as many games as possible until we run out

@@ -47,7 +47,6 @@ export default function Round(props) {
         />
         <RoundPointTally points={props.game.teams[1].points} />
       </div>
-
       <div className="flex flex-row justify-center">
         {round.multiply > 1 ? (
           <div>
@@ -56,7 +55,8 @@ export default function Round(props) {
             </p>
           </div>
         ) : null}
-      </div>
+      </div> 
+
       <div className="flex flex-row justify-center">
         {props.game.settings.hide_questions === false ? (
           <p className="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>

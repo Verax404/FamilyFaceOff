@@ -28,7 +28,7 @@ export default function Game(props) {
   useEffect(() => {
     fetch("/api/ws").finally(() => {
       ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
-      ws.current.onopen = function() {
+      ws.current.onopen = function () {
         console.log("game connected to server");
         let session = cookieCutter.get("session");
         console.debug(session);
@@ -47,7 +47,7 @@ export default function Game(props) {
         }
       };
 
-      ws.current.onmessage = function(evt) {
+      ws.current.onmessage = function (evt) {
         var received_msg = evt.data;
         let json = JSON.parse(received_msg);
         console.debug(json);
@@ -147,12 +147,35 @@ export default function Game(props) {
             <TeamName game={game} team={0} />
             <TeamName game={game} team={1} />
           </div>
+          <div className="border-4 rounded space-y-2 text-center flex-grow w-full">
+            <div className="flex flex-col">
+              {game.buzzed.map((x, i) => (
+                <div
+                  key={i}
+                  className="flex flex-row space-x-2 md:text-2xl lg:text-2xl text-1xl"
+                >
+                  <div className="flex-grow">
+                    <p className="inline w-20 text-left text-foreground">
+                      {t("number", { count: i + 1 })}.{" "}
+                      {game.registeredPlayers[x.id].name}
+                    </p>
+                  </div>
+
+                  <div className="flex-grow">
+                    <p className="inline w-20 text-left text-foreground">
+                      {game.teams[game.registeredPlayers[x.id].team].name}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       );
     }
 
     if (typeof window !== "undefined") {
-      document.body.className= game?.settings?.theme + " bg-background";
+      document.body.className = game?.settings?.theme + " bg-background";
     }
     return (
       <>

@@ -287,11 +287,11 @@ function TitleLogoUpload(props) {
 
 function FinalRoundPointTotalsTextFunction(props) {
   const { i18n, t } = useTranslation();
-  let backgroundColor = "bg-secondary-300";
+  let backgroundColor = "bg-cblue";
   if (props.isFinalSecond && props.place === 1) {
-    backgroundColor = "bg-primary-200";
+    backgroundColor = "bg-cturquoise";
   } else if (!props.isFinalSecond && props.place === 0) {
-    backgroundColor = "bg-primary-200";
+    backgroundColor = "bg-cturquoise";
   }
   return (
     <div
@@ -464,7 +464,7 @@ export default function Admin(props) {
             </a>
             <a href="/new">
               <button className="text-2xl">
-                <div className="w-48 hover:shadow-md rounded bg-primary-200 p-2 flex justify-center">
+                <div className="w-48 hover:shadow-md rounded bg-red-500 p-2 flex justify-center">
                   {t("Create New Game")}
                 </div>
               </button>
@@ -875,7 +875,7 @@ export default function Admin(props) {
                       <div
                         className={`${
                           x.trig ? "bg-secondary-500" : "bg-primary-700"
-                          } font-extrabold uppercase rounded border-2 text-2xl rounded `}
+                          } font-extrabold uppercase rounded border-2 text-2xl `}
                       >
                         <button
                           className="flex flex-row p-5 justify-center min-h-full items-center min-w-full"

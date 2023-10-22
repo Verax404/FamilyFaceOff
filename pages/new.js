@@ -427,7 +427,7 @@ export default function CreateGame(props) {
                 setError("");
                 downloadToFile(
                   JSON.stringify(game),
-                  `${t("new-cold-feud")}.json`,
+                  `${t("new-faceoff")}.json`,
                   "text/json"
                 );
               } else {

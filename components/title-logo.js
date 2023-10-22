@@ -19,6 +19,7 @@ function adjustTextSize(text, limit = 8, startingSize = 80) {
 export default function TitleLogo(props) {
   let hasTitle = props.insert.length > 0 ? true : false;
   const { t } = useTranslation();
+
   let logo = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg

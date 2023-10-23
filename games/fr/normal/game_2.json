@@ -1,0 +1,344 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Grenouille",
+          "pnt": 67,
+          "trig": false
+        },
+        {
+          "ans": "Ver de terre",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Cochon",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Rongeur",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que les enfants dissèquent en classe de sciences."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jambes",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Cheveux",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Ken",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Porte des vêtements",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Voiture",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Vit sur la terre",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose dont une sirène pourrait être jalouse de Barbie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Conjoint",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Médecin",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Parents",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Petit(e) ami(e)",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Ami",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Enfants",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelqu'un qui pourrait vous dire de perdre du poids."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Dormir",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Manger",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Prendre un bain",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": null,
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Lire",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que les enfants doivent être forcés de faire, mais que les adultes aiment."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Prix",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Piscine",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Emplacement",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Classement étoilé",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Petit-déjeuner inclus ?",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Propreté ?",
+          "pnt": 3,
+          "trig": false
+        },
+        {
+          "ans": "Disponibilité",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous découvrez à l'avance sur un hôtel lorsque vous décidez d'y séjourner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Jane Fonda",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Jane Lynch",
+          "pnt": 17,
+        "trig": false
+        },
+        {
+          "ans": "Jane Krakowski",
+          "pnt": 8,
+        "trig": false
+        },
+        {
+          "ans": "Jane Curtain",
+          "pnt": 7,
+        "trig": false
+        },
+        {
+          "ans": "Jane Seymore",
+          "pnt": 6,
+        "trig": false
+        },
+        {
+          "ans": "Jane, la compagne de Tarzan",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez une Jane que vous avez vue à la télévision."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Sifflet",
+          58
+        ],
+        [
+          "Bulles",
+          38
+        ],
+        [
+          "Ballon",
+          25
+        ],
+        [
+          "Nez",
+          16
+        ],
+        [
+          "Bougie",
+          11
+        ],
+        [
+          "Bisous",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez quelque chose que l'on souffle."
+    },
+    {
+      "answers": [
+        [
+          "Singe",
+          48
+        ],
+        [
+          "Écureuil",
+          31
+        ],
+        [
+          "Chat",
+          20
+        ],
+        [
+          "Ours / Koala",
+          13
+        ],
+        [
+          "Raton laveur",
+          9
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un animal qui peut grimper aux arbres."
+    },
+    {
+      "answers": [
+        [
+          "Sears",
+          30
+        ],
+        [
+          "JCPenny's",
+          22
+        ],
+        [
+          "Toys R Us",
+          15
+        ],
+        [
+          "Ikea",
+          11
+        ],
+        [
+          "Hickory Farms",
+          6
+        ],
+        [
+          "Crate And Barrel",
+          5
+        ],
+        [
+          "Neiman Marcus",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez une entreprise qui envoie un catalogue spécial pour les vacances."
+    },
+    {
+      "answers": [
+        [
+          "Dix-sept",
+          37
+        ],
+        [
+          "Ado",
+          26
+        ],
+        [
+          "Tiger Beat",
+          17
+        ],
+        [
+          "Teen People",
+          8
+        ],
+        [
+          "Cosmogirl",
+          7
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un magazine acheté par les adolescents."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

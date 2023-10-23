@@ -1,0 +1,240 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "TV/Films",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Animaux domestiques/Animaux",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Enfants",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que les gens pourraient regarder pendant des heures."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Par erreur",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Pour sa femme",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Endormi",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Actrice célèbre",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Dites-moi une excuse qu'un dur à cuire pourrait donner s'il était surpris en train de regarder un soap opera."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Poisson",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Loutre",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Crocodile",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Grenouille",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Triton",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez un animal qui vit dans une rivière."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Canapé",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Chaise longue",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Lit",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Table",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez un meuble trop grand pour tenir dans une VW Coccinelle."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vos fenêtres",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Votre journal intime",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Armoire à pharmacie/placard",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Votre sac à main",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Votre courrier",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Dossiers de téléphone portable",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Vos déchets",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que seule une personne curieuse fouillerait."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Le Juste Prix",
+          "pnt": 49,
+          "trig": false
+        },
+        {
+          "ans": "La Roue de la Fortune",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "La Famille en Feu",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Jeopardy",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez un jeu télévisé qui existe depuis longtemps."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        ["Plus", 25],
+        ["Égal", 19],
+        ["Multiplier", 14],
+        ["Diviser", 12],
+        ["Marche/Arrêt", 8],
+        ["Pourcentage", 8],
+        ["Moins", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "À part les chiffres, nommez un bouton sur une calculatrice."
+    },
+    {
+      "answers": [
+        ["Fumer", 38],
+        ["Camping/Feu de camp", 27],
+        ["Feux d'artifice", 15],
+        ["Manger du feu", 14]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un passe-temps qui serait ironique pour un pompier."
+    },
+    {
+      "answers": [
+        ["Jouer dehors", 52],
+        ["Jouer à des sports", 25],
+        ["Nager", 18],
+        ["Se lever du lit", 3]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez quelque chose qu'une mère dirait à son enfant de faire une douche."
+    },
+    {
+      "answers": [
+        ["Centre commercial", 28],
+        ["Hôpital", 18],
+        ["Concert", 16],
+        ["Aéroport", 15],
+        ["Travail/Centre-ville", 14],
+        ["Événement sportif", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Dites-moi un endroit où vous devez souvent payer pour le stationnement."
+    }
+  ],
+  "final_round_timers": [20, 25]
+}

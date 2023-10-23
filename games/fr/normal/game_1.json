@@ -1,0 +1,298 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Cape et capuche noire",
+          "pnt": 43,
+          "trig": false
+        },
+        {
+          "ans": "Faux",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Squelette",
+          "pnt": 13,
+          "trig": false
+        },
+        {
+          "ans": "Masque",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Maquillage",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose dont vous auriez besoin si vous vouliez ressembler à la Faucheuse."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Musique country",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Guitare",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Cow-boy",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Chapeau de cow-boy",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Accent country",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose associé à Garth Brooks."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Entrée",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Barre d'espace",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Retour arrière",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Touche de tabulation",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Mis à part les touches de lettres et de ponctuation, quelle touche d'ordinateur ne voudriez-vous pas utiliser pour taper un rapport ?"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Leurs vies amoureuses",
+          "pnt": 57,
+          "trig": false
+        },
+        {
+          "ans": "Infidélité",
+          "pnt": 37,
+          "trig": false
+        },
+        {
+          "ans": "Rumeur",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Divorce",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez un sujet sur lequel les gens chuchoteraient."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Pneu de secours",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Cric",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Outils",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Réservoir d'essence de secours",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Câbles de démarrage",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous pourriez trouver dans le coffre d'une voiture."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bas du dos/fesses",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Cheville",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Poitrine",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Pied",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Hanche",
+          "pnt": 9,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez un endroit sur le corps que les femmes tatouent, mais que les hommes n'ont généralement pas."
+    }
+  ],
+  "final_round": [
+    {
+      "answers": [
+        [
+          "Nez",
+          52
+        ],
+        [
+          "Cou",
+          34
+        ],
+        [
+          "Narine",
+          22
+        ],
+        [
+          "Ongles",
+          14
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez une partie du corps commençant par la lettre \"N\"."
+    },
+    {
+      "answers": [
+        [
+          "Nettoyer",
+          46
+        ],
+        [
+          "Devoirs",
+          30
+        ],
+        [
+          "Prendre une douche",
+          20
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Que ferait un étudiant en colocation juste avant la visite de ses parents ?"
+    },
+    {
+      "answers": [
+        [
+          "Crier",
+          44
+        ],
+        [
+          "Éclabousser d'eau",
+          29
+        ],
+        [
+          "Secouer",
+          19
+        ],
+        [
+          "Sauter sur le lit",
+          12
+        ],
+        [
+          "Utiliser une alarme",
+          8
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Dites-moi quelle est la pire façon d'être réveillé."
+    },
+    {
+      "answers": [
+        [
+          "Souris",
+          32
+        ],
+        [
+          "Ours",
+          18
+        ],
+        [
+          "Castors",
+          14
+        ],
+        [
+          "Raton laveur",
+          9
+        ],
+        [
+          "Rats",
+          9
+        ],
+        [
+          "Opossums",
+          6
+        ],
+        [
+          "Coyotes",
+          5
+        ]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un animal pour lequel les gens posent des pièges."
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}

@@ -185,34 +185,13 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Fruit",
-          33
-        ],
-        [
-          "Yogurt",
-          26
-        ],
-        [
-          "Dry Toast",
-          12
-        ],
-        [
-          "Cereal",
-          11
-        ],
-        [
-          "Slim Fast",
-          8
-        ],
-        [
-          "Bran Muffins",
-          6
-        ],
-        [
-          "Breakfast Bar",
-          4
-        ]
+        ["Fruit", 33],
+        ["Yogurt", 26],
+        ["Dry Toast", 12],
+        ["Cereal", 11],
+        ["Slim Fast", 8],
+        ["Bran Muffins", 6],
+        ["Breakfast Bar", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -222,26 +201,11 @@
     },
     {
       "answers": [
-        [
-          "Superman",
-          35
-        ],
-        [
-          "Jekyll & Hyde",
-          33
-        ],
-        [
-          "Batman",
-          17
-        ],
-        [
-          "Spiderman",
-          5
-        ],
-        [
-          "Hulk",
-          3
-        ]
+        ["Superman", 35],
+        ["Jekyll & Hyde", 33],
+        ["Batman", 17],
+        ["Spiderman", 5],
+        ["Hulk", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -251,22 +215,10 @@
     },
     {
       "answers": [
-        [
-          "New York",
-          54
-        ],
-        [
-          "Los Angeles",
-          22
-        ],
-        [
-          "Chicago",
-          19
-        ],
-        [
-          "Boston",
-          3
-        ]
+        ["New York", 54],
+        ["Los Angeles", 22],
+        ["Chicago", 19],
+        ["Boston", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -276,26 +228,11 @@
     },
     {
       "answers": [
-        [
-          "Maxed Out",
-          50
-        ],
-        [
-          "Expired",
-          33
-        ],
-        [
-          "Paid It Off",
-          21
-        ],
-        [
-          "Fraud",
-          14
-        ],
-        [
-          "Got A New One",
-          9
-        ]
+        ["Maxed Out", 50],
+        ["Expired", 33],
+        ["Paid It Off", 21],
+        ["Fraud", 14],
+        ["Got A New One", 9]
       ],
       "selection": 0,
       "points": 0,
@@ -304,8 +241,5 @@
       "question": "Name A Reason Someone Might Chop Up His Credit Card"
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

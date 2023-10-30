@@ -215,26 +215,11 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Kermit ",
-          45
-        ],
-        [
-          "Miss Piggy ",
-          29
-        ],
-        [
-          "Pinnochio ",
-          19
-        ],
-        [
-          "Punch / Judy ",
-          12
-        ],
-        [
-          "Basil Brush ",
-          8
-        ]
+        ["Kermit ", 45],
+        ["Miss Piggy ", 29],
+        ["Pinnochio ", 19],
+        ["Punch / Judy ", 12],
+        ["Basil Brush ", 8]
       ],
       "selection": 0,
       "points": 0,
@@ -244,30 +229,12 @@
     },
     {
       "answers": [
-        [
-          "Finger Over Lens ",
-          44
-        ],
-        [
-          "Shake Camera ",
-          29
-        ],
-        [
-          "Lens Cap ",
-          19
-        ],
-        [
-          "Out Of Focus ",
-          12
-        ],
-        [
-          "Cut Head Off ",
-          8
-        ],
-        [
-          "Forget Flash ",
-          5
-        ]
+        ["Finger Over Lens ", 44],
+        ["Shake Camera ", 29],
+        ["Lens Cap ", 19],
+        ["Out Of Focus ", 12],
+        ["Cut Head Off ", 8],
+        ["Forget Flash ", 5]
       ],
       "selection": 0,
       "points": 0,
@@ -277,30 +244,12 @@
     },
     {
       "answers": [
-        [
-          "Chocolates ",
-          57
-        ],
-        [
-          "Cigarettes ",
-          37
-        ],
-        [
-          "Matches ",
-          24
-        ],
-        [
-          "Cereal ",
-          16
-        ],
-        [
-          "Tissues ",
-          10
-        ],
-        [
-          "Biscuits ",
-          7
-        ]
+        ["Chocolates ", 57],
+        ["Cigarettes ", 37],
+        ["Matches ", 24],
+        ["Cereal ", 16],
+        ["Tissues ", 10],
+        ["Biscuits ", 7]
       ],
       "selection": 0,
       "points": 0,
@@ -310,34 +259,13 @@
     },
     {
       "answers": [
-        [
-          "Cell Phone",
-          50
-        ],
-        [
-          "TV",
-          16
-        ],
-        [
-          "Snacks/Food",
-          11
-        ],
-        [
-          "Video Games",
-          8
-        ],
-        [
-          "Computer",
-          5
-        ],
-        [
-          "Listening To Music",
-          3
-        ],
-        [
-          "A Loan",
-          3
-        ]
+        ["Cell Phone", 50],
+        ["TV", 16],
+        ["Snacks/Food", 11],
+        ["Video Games", 8],
+        ["Computer", 5],
+        ["Listening To Music", 3],
+        ["A Loan", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -346,8 +274,5 @@
       "question": "Name Something A Teen Wouldn’t Be Able To Go Without For A Day."
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

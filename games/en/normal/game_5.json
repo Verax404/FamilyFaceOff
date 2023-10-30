@@ -210,34 +210,13 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Paper Towels",
-          32
-        ],
-        [
-          "Napkins",
-          24
-        ],
-        [
-          "Paper Plates",
-          17
-        ],
-        [
-          "Toilet Paper",
-          10
-        ],
-        [
-          "Tissue",
-          7
-        ],
-        [
-          "Paper",
-          5
-        ],
-        [
-          "Notebook",
-          4
-        ]
+        ["Paper Towels", 32],
+        ["Napkins", 24],
+        ["Paper Plates", 17],
+        ["Toilet Paper", 10],
+        ["Tissue", 7],
+        ["Paper", 5],
+        ["Notebook", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -247,22 +226,10 @@
     },
     {
       "answers": [
-        [
-          "Garden",
-          44
-        ],
-        [
-          "Pool",
-          39
-        ],
-        [
-          "Lots Of Rooms",
-          8
-        ],
-        [
-          "Tennis Courts",
-          7
-        ]
+        ["Garden", 44],
+        ["Pool", 39],
+        ["Lots Of Rooms", 8],
+        ["Tennis Courts", 7]
       ],
       "selection": 0,
       "points": 0,
@@ -272,22 +239,10 @@
     },
     {
       "answers": [
-        [
-          "Exercise",
-          40
-        ],
-        [
-          "Going Out",
-          30
-        ],
-        [
-          "Vacation",
-          14
-        ],
-        [
-          "Shopping",
-          12
-        ]
+        ["Exercise", 40],
+        ["Going Out", 30],
+        ["Vacation", 14],
+        ["Shopping", 12]
       ],
       "selection": 0,
       "points": 0,
@@ -297,22 +252,10 @@
     },
     {
       "answers": [
-        [
-          "Dad",
-          51
-        ],
-        [
-          "Daddy",
-          28
-        ],
-        [
-          "Papa",
-          10
-        ],
-        [
-          "Pop",
-          8
-        ]
+        ["Dad", 51],
+        ["Daddy", 28],
+        ["Papa", 10],
+        ["Pop", 8]
       ],
       "selection": 0,
       "points": 0,
@@ -321,8 +264,5 @@
       "question": "Give Me Another Name That Kids Use For “Father”"
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

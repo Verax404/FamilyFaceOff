@@ -215,26 +215,11 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Nail File",
-          60
-        ],
-        [
-          "Fingernail Polish",
-          26
-        ],
-        [
-          "Buffer",
-          6
-        ],
-        [
-          "Cotton Balls",
-          5
-        ],
-        [
-          "Scissors",
-          3
-        ]
+        ["Nail File", 60],
+        ["Fingernail Polish", 26],
+        ["Buffer", 6],
+        ["Cotton Balls", 5],
+        ["Scissors", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -244,34 +229,13 @@
     },
     {
       "answers": [
-        [
-          "Spiders",
-          37
-        ],
-        [
-          "Heights",
-          25
-        ],
-        [
-          "Snakes",
-          14
-        ],
-        [
-          "Water",
-          7
-        ],
-        [
-          "Darkness",
-          6
-        ],
-        [
-          "Flying",
-          4
-        ],
-        [
-          "Small Spaces",
-          3
-        ]
+        ["Spiders", 37],
+        ["Heights", 25],
+        ["Snakes", 14],
+        ["Water", 7],
+        ["Darkness", 6],
+        ["Flying", 4],
+        ["Small Spaces", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -281,34 +245,13 @@
     },
     {
       "answers": [
-        [
-          "Construction",
-          38
-        ],
-        [
-          "House Painter",
-          21
-        ],
-        [
-          "Landscaper",
-          16
-        ],
-        [
-          "Farmer",
-          12
-        ],
-        [
-          "Athlete",
-          5
-        ],
-        [
-          "Postal Worker",
-          3
-        ],
-        [
-          "Lifeguard",
-          3
-        ]
+        ["Construction", 38],
+        ["House Painter", 21],
+        ["Landscaper", 16],
+        ["Farmer", 12],
+        ["Athlete", 5],
+        ["Postal Worker", 3],
+        ["Lifeguard", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -318,30 +261,12 @@
     },
     {
       "answers": [
-        [
-          "Car",
-          39
-        ],
-        [
-          "TV",
-          23
-        ],
-        [
-          "Air Conditioning",
-          11
-        ],
-        [
-          "Telephone",
-          8
-        ],
-        [
-          "Toilet Paper",
-          6
-        ],
-        [
-          "Computer",
-          4
-        ]
+        ["Car", 39],
+        ["TV", 23],
+        ["Air Conditioning", 11],
+        ["Telephone", 8],
+        ["Toilet Paper", 6],
+        ["Computer", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -350,8 +275,5 @@
       "question": "If You Went Back In Time 10,000 Years, Name A Luxury Item You’d Probably Miss."
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

@@ -3,237 +3,830 @@
     {
       "answers": [
         {
-          "ans": "TV/Movies",
+          "ans": "Poison",
           "pnt": 66,
           "trig": false
         },
         {
-          "ans": "Pets/Animals",
+          "ans": "Fusil/Balles",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Couteau",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sel",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose qu'un mari pourrait voir dans la liste de magasinage de sa femme qui pourrait lui faire penser qu'elle planifie de le tuer."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Internet et réseaux sociaux",
+          "pnt": 66,
+          "trig": false
+        },
+        {
+          "ans": "Films/TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Animaux domestiques/Animaux",
           "pnt": 12,
           "trig": false
         },
         {
           "ans": "Sports",
-          "pnt": 12,
-          "trig": false
-        },
-        {
-          "ans": "Kids",
           "pnt": 8,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name Something That People Could Watch For Hours."
+      "question": "Nommez quelque chose que les gens pourraient regarder pendant des heures."
     },
     {
       "answers": [
         {
-          "ans": "By Mistake",
-          "pnt": 32,
+          "ans": "Araignées",
+          "pnt": 52,
           "trig": false
         },
         {
-          "ans": "For Wife",
-          "pnt": 31,
+          "ans": "Serpents",
+          "pnt": 36,
           "trig": false
         },
         {
-          "ans": "Asleep",
-          "pnt": 25,
+          "ans": "Hauteur",
+          "pnt": 23,
           "trig": false
         },
         {
-          "ans": "Hot Actress",
-          "pnt": 8,
-          "trig": false
-        }
-      ],
-      "multiply": 1,
-      "question": "Tell Me An Excuse That A Tough Guy Might Give If He Were Caught Watching A Soap Opera"
-    },
-    {
-      "answers": [
-        {
-          "ans": "Fish ",
-          "pnt": 41,
-          "trig": false
-        },
-        {
-          "ans": "Otter ",
-          "pnt": 27,
-          "trig": false
-        },
-        {
-          "ans": "Crocodile ",
-          "pnt": 17,
-          "trig": false
-        },
-        {
-          "ans": "Frog ",
-          "pnt": 11,
-          "trig": false
-        },
-        {
-          "ans": "Newt ",
-          "pnt": 7,
-          "trig": false
-        }
-      ],
-      "multiply": 1,
-      "question": "Name An Animal That Lives In A River"
-    },
-    {
-      "answers": [
-        {
-          "ans": "Couch",
-          "pnt": 59,
-          "trig": false
-        },
-        {
-          "ans": "Lounge Chair",
-          "pnt": 16,
-          "trig": false
-        },
-        {
-          "ans": "Bed",
-          "pnt": 7,
-          "trig": false
-        },
-        {
-          "ans": "Table",
-          "pnt": 6,
-          "trig": false
-        }
-      ],
-      "multiply": 2,
-      "question": "Name A Piece Of furniture That’s Too big To Fit In A VW Bug"
-    },
-    {
-      "answers": [
-        {
-          "ans": "Your Windows",
-          "pnt": 24,
-          "trig": false
-        },
-        {
-          "ans": "Your Diary/Journal",
-          "pnt": 20,
-          "trig": false
-        },
-        {
-          "ans": "Medicine Cabinet/Closet",
-          "pnt": 19,
-          "trig": false
-        },
-        {
-          "ans": "Your Purse",
-          "pnt": 15,
-          "trig": false
-        },
-        {
-          "ans": "Your Mail",
-          "pnt": 11,
-          "trig": false
-        },
-        {
-          "ans": "Cell Phone Records",
-          "pnt": 4,
-          "trig": false
-        },
-        {
-          "ans": "Your Trash",
-          "pnt": 3,
-          "trig": false
-        }
-      ],
-      "multiply": 2,
-      "question": "Name Something That Only A Nosy Person Would Look Through"
-    },
-    {
-      "answers": [
-        {
-          "ans": "Price Is Right",
-          "pnt": 49,
-          "trig": false
-        },
-        {
-          "ans": "Wheel Of Fortune",
-          "pnt": 19,
-          "trig": false
-        },
-        {
-          "ans": "Family Feud",
+          "ans": "Obscurité",
           "pnt": 18,
           "trig": false
         },
         {
-          "ans": "Jeopardy",
+          "ans": "Phénomène paranormaux/Fantomes",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose dont les gens ont souvent peur."
+    },
+    {
+      "rounds": [
+        {
+          "answers": [
+            {
+              "ans": "Clés",
+              "pnt": 48,
+              "trig": false
+            },
+            {
+              "ans": "Portefeuille",
+              "pnt": 32,
+              "trig": false
+            },
+            {
+              "ans": "Téléphone",
+              "pnt": 20,
+              "trig": false
+            },
+            {
+              "ans": "Lunettes",
+              "pnt": 17,
+              "trig": false
+            },
+            {
+              "ans": "Télécommande",
+              "pnt": 12,
+              "trig": false
+            }
+          ],
+          "multiply": 1,
+          "question": "Nommez quelque chose que les gens perdent souvent."
+        },
+        {
+          "ans": "Le mariage",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "La naissance d'un enfant",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Le premier emploi",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "La retraite",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "L'achat d'une maison",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez un événement marquant dans la vie d'une personne."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chien",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Chat",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Oiseau",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Poisson",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hamster",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez un animal de compagnie populaire que l'on peut garder dans une maison."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Oreilles de lapin",
+          "pnt": 59,
+          "trig": false
+        },
+        {
+          "ans": "Tirer la langue",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Faire une grimace drôle",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Ne pas sourire",
+          "pnt": 16,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose qu'un adolescent pourrait faire en prenant une photo et qui pourrait lui causer des ennuis."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Collier",
+          "pnt": 53,
+          "trig": false
+        },
+        {
+          "ans": "Nourriture",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Cloche",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Lait",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous pourriez acheter pour un chat."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Aiguille",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Porc-épic",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Cactus",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Clou",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose de piquant/pointu."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Livres",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Films",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Nourriture",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "CDs",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose dans la maison d'une personne extrêmement organisée qui pourrait être classé par ordre alphabétique."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Argent",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Vêtements/chaussures",
+          "pnt": 21,
+          "trig": false
+        },
+        {
+          "ans": "Nourriture",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bijoux",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Amoureux",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose qu'un membre d'une famille pourrait voler à un autre."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chocolat/Bonbons",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Frites",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez une nourriture malsaine spécifique que vous ne voudriez jamais abandonner."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Produits féminins",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Maquillage",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Parfum",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Fleurs",
           "pnt": 9,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Name A Gameshow That Has Been Around Forever."
+      "question": "Nommez quelque chose que vous seriez surpris de trouver dans la salle de bains d'un homme célibataire."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Bébés/Nouveau-née",
+          "pnt": 46,
+          "trig": false
+        },
+        {
+          "ans": "Verre/Vitre",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Bijoux",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Oeufs",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nomme quelque chose que les gens doivent manipuler avec précaution."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Vêtements/chaussures",
+          "pnt": 50,
+          "trig": false
+        },
+        {
+          "ans": "Voiture",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Vaisselle",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Enfants",
+          "pnt": 7,
+          "trig": false
+        },
+        {
+          "ans": "Animaux domestiques/Animaux",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose, autre que vous-même, que vous devez laver."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Parfum",
+          "pnt": 44,
+          "trig": false
+        },
+        {
+          "ans": "Fleurs",
+          "pnt": 39,
+          "trig": false
+        },
+        {
+          "ans": "Nourriture",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Chandelle",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Pieds",
+          "pnt": 2,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez une chose que les gens vous demanderaient de sentir."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Votre partenaire de vie",
+          "pnt": 64,
+          "trig": false
+        },
+        {
+          "ans": "Votre carrière professionnelle",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Vos amis proches",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Vos décisions financières",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que vous devriez choisir avec sagesse dans la vie."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Les personnes",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Le travail/l'école",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Manger",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "L'alcool",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Dites-moi quelque chose que vous évitez lorsque vous êtes malade."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Trafic",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Accident",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Panne de voiture",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Travaux routiers",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose qui se produit pendant le trajet pour le travail et vous fait arriver en retard."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Médecin",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Dentiste",
+          "pnt": 31,
+          "trig": false
+        },
+        {
+          "ans": "Salon de coiffure",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Mécanicien",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez un endroit où vous avez besoin d'un rendez-vous."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Argent",
+          "pnt": 55,
+          "trig": false
+        },
+        {
+          "ans": "Sac à main / Portefeuille",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Liste",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Sac",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Les enfants",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que vous emportez avec vous lorsque vous faites vos achats."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fleurs",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Soleil",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Maillot de bain",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Personnes en short",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Insectes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Enfants qui jouent",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que l'on voit beaucoup en été."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fumer",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Excès de vitesse",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Manger",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Boire",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dormir",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Se curer le nez",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parler au téléphone",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous détesteriez voir le voiturier faire avec votre voiture."
+    },
+    {
+      "answers": [
+        {
+          "ans": "People Or Passengers ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Conductor ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Seats ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Guard ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Driver ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See On A Train"
     }
   ],
   "final_round": [
     {
       "answers": [
+        ["Laisse", 44],
+        ["Collier", 29],
+        ["Vêtements", 19],
+        ["Spray anti-puces", 12],
+        ["Muselière", 8]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez quelque chose que les chiens détestent que leurs propriétaires leur mettent."
+    },
+    {
+      "answers": [
+        ["Médecin", 33],
+        ["Chauffeur de camion", 17],
+        ["Infirmière", 12],
+        ["Chauffeur de taxi", 12],
+        ["Chauffeur de bus", 9],
+        ["Électricien", 7],
+        ["Enseignant", 5]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un métier pour lequel vous auriez besoin d'une licence pour exercer."
+    },
+    {
+      "answers": [
+        ["Argent", 42],
+        ["Sous-vêtements", 38],
+        ["Brosse à dents", 8],
+        ["Conjoint", 5],
+        ["Voiture", 4]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Dites-moi quelque chose que vous n'emprunteriez jamais à un ami proche."
+    },
+    {
+      "answers": [
+        ["Dormir", 41],
+        ["Faire de la luge", 28],
+        ["Ski", 16],
+        ["Regarder la télévision/des films", 6],
+        ["Lire", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Quelle est la meilleure façon de passer une journée enneigée ?"
+    },
+    {
+      "answers": [
+        ["Manteau", 22],
+        ["Casque", 22],
+        ["Gilet pare-balles", 11],
+        ["Chapeau", 11],
+        ["Écran solaire", 9]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez quelque chose que les gens portent pour se protéger."
+    },
+    {
+      "answers": [
         ["Plus", 25],
-        ["Equal", 19],
-        ["Multiply", 14],
-        ["Divide", 12],
-        ["On/Off", 8],
-        ["Percent", 8],
-        ["Minus", 6]
+        ["Égal", 19],
+        ["Multiplier", 14],
+        ["Diviser", 12],
+        ["ON/OFF", 8],
+        ["Pourcentage", 8],
+        ["Moins", 6]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Besides numbers,name a button on a calculator"
+      "question": "À part les chiffres, nommez un bouton sur une calculatrice."
     },
     {
       "answers": [
-        ["Smoking", 38],
-        ["Camping/Campfire", 27],
-        ["Fireworks", 15],
-        ["Fire Eating", 14]
+        ["Jouer à des jeux vidéo.", 28],
+        ["Utiliser les médias sociaux", 26],
+        ["Écouter de la musique.", 16],
+        ["Faire du sport ou s'entraîner.", 12],
+        ["Discuter avec des amis en ligne ou en personne.", 10],
+        ["Regarder la télévision/films/télé-series", 4]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name a Hobby That Would Be Ironic For A Firefighter To Have."
+      "question": "Nommez quelque chose qu'un adolescent peut faire pendant une plus longues durée que ses parents."
     },
     {
       "answers": [
-        ["Playing Outside", 52],
-        ["Playing Sports", 25],
-        ["Swimming", 18],
-        ["Getting Out Of Bed", 3]
+        ["Singe", 48],
+        ["Écureuil", 31],
+        ["Chat", 20],
+        ["Ours / Koala", 13],
+        ["Raton laveur", 9]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name Something A Mom Might Tell Her Kid To Shower After Doing"
+      "question": "Nommez un animal qui peut grimper aux arbres."
     },
     {
       "answers": [
-        ["Mall", 28],
-        ["Hospital", 18],
-        ["Concert", 16],
-        ["Airport", 15],
-        ["Work/Downtown", 14],
-        ["Sporting Event", 6]
+        ["Centre commercial", 28],
+        ["Hôpital", 18],
+        ["Concert/Cinema", 16],
+        ["Aéroport", 15],
+        ["Travail/Centre-ville", 14],
+        ["Événement sportif", 6]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Tell Me A Place Where You Often Have To Pay For Parking."
+      "question": "Dites-moi un endroit où vous devez souvent payer pour le stationnement."
     }
   ],
   "final_round_timers": [20, 25]

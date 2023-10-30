@@ -210,34 +210,13 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Doctor",
-          33
-        ],
-        [
-          "Truck Driver",
-          17
-        ],
-        [
-          "Nurse",
-          12
-        ],
-        [
-          "Taxi Driver",
-          12
-        ],
-        [
-          "Bus Driver",
-          9
-        ],
-        [
-          "Electrician",
-          7
-        ],
-        [
-          "Teacher",
-          5
-        ]
+        ["Doctor", 33],
+        ["Truck Driver", 17],
+        ["Nurse", 12],
+        ["Taxi Driver", 12],
+        ["Bus Driver", 9],
+        ["Electrician", 7],
+        ["Teacher", 5]
       ],
       "selection": 0,
       "points": 0,
@@ -247,26 +226,11 @@
     },
     {
       "answers": [
-        [
-          "United States",
-          73
-        ],
-        [
-          "Russia",
-          15
-        ],
-        [
-          "China",
-          5
-        ],
-        [
-          "England",
-          4
-        ],
-        [
-          "Germany",
-          3
-        ]
+        ["United States", 73],
+        ["Russia", 15],
+        ["China", 5],
+        ["England", 4],
+        ["Germany", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -276,26 +240,11 @@
     },
     {
       "answers": [
-        [
-          "Money",
-          42
-        ],
-        [
-          "Underwear",
-          38
-        ],
-        [
-          "Toothbrush",
-          8
-        ],
-        [
-          "Mate",
-          5
-        ],
-        [
-          "Car",
-          4
-        ]
+        ["Money", 42],
+        ["Underwear", 38],
+        ["Toothbrush", 8],
+        ["Mate", 5],
+        ["Car", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -305,26 +254,11 @@
     },
     {
       "answers": [
-        [
-          "Hair",
-          28
-        ],
-        [
-          "Weeds",
-          25
-        ],
-        [
-          "Cactus",
-          19
-        ],
-        [
-          "People",
-          17
-        ],
-        [
-          "Nails",
-          3
-        ]
+        ["Hair", 28],
+        ["Weeds", 25],
+        ["Cactus", 19],
+        ["People", 17],
+        ["Nails", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -333,8 +267,5 @@
       "question": "Name Something That Grows Without Being Watered."
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

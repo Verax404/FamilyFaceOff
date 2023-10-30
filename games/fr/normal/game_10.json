@@ -200,26 +200,11 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Hair ",
-          50
-        ],
-        [
-          "Fishing Line ",
-          33
-        ],
-        [
-          "Wool ",
-          21
-        ],
-        [
-          "Rope String ",
-          14
-        ],
-        [
-          "Tongue ",
-          9
-        ]
+        ["Hair ", 50],
+        ["Fishing Line ", 33],
+        ["Wool ", 21],
+        ["Rope String ", 14],
+        ["Tongue ", 9]
       ],
       "selection": 0,
       "points": 0,
@@ -229,26 +214,11 @@
     },
     {
       "answers": [
-        [
-          "Sleeping",
-          41
-        ],
-        [
-          "Sledding",
-          28
-        ],
-        [
-          "Skiing",
-          16
-        ],
-        [
-          "Watching TV/Movies",
-          6
-        ],
-        [
-          "Reading",
-          6
-        ]
+        ["Sleeping", 41],
+        ["Sledding", 28],
+        ["Skiing", 16],
+        ["Watching TV/Movies", 6],
+        ["Reading", 6]
       ],
       "selection": 0,
       "points": 0,
@@ -258,34 +228,13 @@
     },
     {
       "answers": [
-        [
-          "Eat/ Drink",
-          52
-        ],
-        [
-          "Talk On Phone",
-          22
-        ],
-        [
-          "Smoke",
-          8
-        ],
-        [
-          "Change Gears",
-          5
-        ],
-        [
-          "Stop",
-          4
-        ],
-        [
-          "Park",
-          3
-        ],
-        [
-          "Steer",
-          3
-        ]
+        ["Eat/ Drink", 52],
+        ["Talk On Phone", 22],
+        ["Smoke", 8],
+        ["Change Gears", 5],
+        ["Stop", 4],
+        ["Park", 3],
+        ["Steer", 3]
       ],
       "selection": 0,
       "points": 0,
@@ -295,26 +244,11 @@
     },
     {
       "answers": [
-        [
-          "Suit",
-          51
-        ],
-        [
-          "Tie",
-          33
-        ],
-        [
-          "Shorts",
-          22
-        ],
-        [
-          "Blue Jeans",
-          14
-        ],
-        [
-          "Hat",
-          9
-        ]
+        ["Suit", 51],
+        ["Tie", 33],
+        ["Shorts", 22],
+        ["Blue Jeans", 14],
+        ["Hat", 9]
       ],
       "selection": 0,
       "points": 0,
@@ -323,8 +257,5 @@
       "question": "Name An Article Of Clothing Women Think Men Look Handsome"
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

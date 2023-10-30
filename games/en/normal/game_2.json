@@ -210,30 +210,12 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Whistle ",
-          58
-        ],
-        [
-          "Bubbles ",
-          38
-        ],
-        [
-          "Balloon ",
-          25
-        ],
-        [
-          "Nose ",
-          16
-        ],
-        [
-          "Candle ",
-          11
-        ],
-        [
-          "Kisses ",
-          7
-        ]
+        ["Whistle ", 58],
+        ["Bubbles ", 38],
+        ["Balloon ", 25],
+        ["Nose ", 16],
+        ["Candle ", 11],
+        ["Kisses ", 7]
       ],
       "selection": 0,
       "points": 0,
@@ -243,26 +225,11 @@
     },
     {
       "answers": [
-        [
-          "Monkey ",
-          48
-        ],
-        [
-          "Squirrel ",
-          31
-        ],
-        [
-          "Cat ",
-          20
-        ],
-        [
-          "Bear / Koala ",
-          13
-        ],
-        [
-          "Racoon ",
-          9
-        ]
+        ["Monkey ", 48],
+        ["Squirrel ", 31],
+        ["Cat ", 20],
+        ["Bear / Koala ", 13],
+        ["Racoon ", 9]
       ],
       "selection": 0,
       "points": 0,
@@ -272,34 +239,13 @@
     },
     {
       "answers": [
-        [
-          "Sears",
-          30
-        ],
-        [
-          "JCPenny’s",
-          22
-        ],
-        [
-          "Toys R Us",
-          15
-        ],
-        [
-          "Ikea",
-          11
-        ],
-        [
-          "Hickory Farms",
-          6
-        ],
-        [
-          "Crate And Barrel",
-          5
-        ],
-        [
-          "Neiman Marcus",
-          5
-        ]
+        ["Sears", 30],
+        ["JCPenny’s", 22],
+        ["Toys R Us", 15],
+        ["Ikea", 11],
+        ["Hickory Farms", 6],
+        ["Crate And Barrel", 5],
+        ["Neiman Marcus", 5]
       ],
       "selection": 0,
       "points": 0,
@@ -309,26 +255,11 @@
     },
     {
       "answers": [
-        [
-          "Seventeen",
-          37
-        ],
-        [
-          "Teen",
-          26
-        ],
-        [
-          "Tiger Beat",
-          17
-        ],
-        [
-          "Teen People",
-          8
-        ],
-        [
-          "Cosmogirl",
-          7
-        ]
+        ["Seventeen", 37],
+        ["Teen", 26],
+        ["Tiger Beat", 17],
+        ["Teen People", 8],
+        ["Cosmogirl", 7]
       ],
       "selection": 0,
       "points": 0,
@@ -337,8 +268,5 @@
       "question": "Name A Magazine Teenagers Buy."
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

@@ -50,7 +50,7 @@
         }
       ],
       "multiply": 1,
-      "question": "Name Something That's Prickly"
+      "question": "Name Something Thats Prickly"
     },
     {
       "answers": [
@@ -185,26 +185,11 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Bar",
-          38
-        ],
-        [
-          "Bowling Alley",
-          27
-        ],
-        [
-          "Diner",
-          23
-        ],
-        [
-          "Rock Concert",
-          6
-        ],
-        [
-          "Pool Hall",
-          5
-        ]
+        ["Bar", 38],
+        ["Bowling Alley", 27],
+        ["Diner", 23],
+        ["Rock Concert", 6],
+        ["Pool Hall", 5]
       ],
       "selection": 0,
       "points": 0,
@@ -214,26 +199,11 @@
     },
     {
       "answers": [
-        [
-          "Leash",
-          44
-        ],
-        [
-          "Collar",
-          29
-        ],
-        [
-          "Clothes",
-          19
-        ],
-        [
-          "Flea Spray",
-          12
-        ],
-        [
-          "Muzzle",
-          8
-        ]
+        ["Leash", 44],
+        ["Collar", 29],
+        ["Clothes", 19],
+        ["Flea Spray", 12],
+        ["Muzzle", 8]
       ],
       "selection": 0,
       "points": 0,
@@ -243,30 +213,12 @@
     },
     {
       "answers": [
-        [
-          "Magnifying Glass",
-          42
-        ],
-        [
-          "Book",
-          38
-        ],
-        [
-          "Notebook",
-          5
-        ],
-        [
-          "Pen",
-          5
-        ],
-        [
-          "Flashlight",
-          4
-        ],
-        [
-          "Detectives Hat",
-          4
-        ]
+        ["Magnifying Glass", 42],
+        ["Book", 38],
+        ["Notebook", 5],
+        ["Pen", 5],
+        ["Flashlight", 4],
+        ["Detectives Hat", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -276,22 +228,10 @@
     },
     {
       "answers": [
-        [
-          "No Noise",
-          41
-        ],
-        [
-          "Cheaper",
-          27
-        ],
-        [
-          "Lightweight",
-          17
-        ],
-        [
-          "No Mistakes",
-          11
-        ]
+        ["No Noise", 41],
+        ["Cheaper", 27],
+        ["Lightweight", 17],
+        ["No Mistakes", 11]
       ],
       "selection": 0,
       "points": 0,
@@ -300,8 +240,5 @@
       "question": "What Are The Advantages Of Having An Air Guitar Rather Than a Real Guitar?"
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

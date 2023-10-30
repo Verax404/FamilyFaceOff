@@ -170,30 +170,12 @@
   "final_round": [
     {
       "answers": [
-        [
-          "Sleep",
-          28
-        ],
-        [
-          "Exercise",
-          26
-        ],
-        [
-          "Talk On The Phone",
-          16
-        ],
-        [
-          "Stay Up",
-          12
-        ],
-        [
-          "Watch TV",
-          10
-        ],
-        [
-          "Play Video Games",
-          4
-        ]
+        ["Sleep", 28],
+        ["Exercise", 26],
+        ["Talk On The Phone", 16],
+        ["Stay Up", 12],
+        ["Watch TV", 10],
+        ["Play Video Games", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -203,26 +185,11 @@
     },
     {
       "answers": [
-        [
-          "Bugs",
-          31
-        ],
-        [
-          "Wind",
-          21
-        ],
-        [
-          "Cold Weather",
-          16
-        ],
-        [
-          "Sun",
-          15
-        ],
-        [
-          "Rain",
-          12
-        ]
+        ["Bugs", 31],
+        ["Wind", 21],
+        ["Cold Weather", 16],
+        ["Sun", 15],
+        ["Rain", 12]
       ],
       "selection": 0,
       "points": 0,
@@ -232,34 +199,13 @@
     },
     {
       "answers": [
-        [
-          "No Pool",
-          56
-        ],
-        [
-          "No View",
-          36
-        ],
-        [
-          "Dirty",
-          24
-        ],
-        [
-          "Bugs",
-          16
-        ],
-        [
-          "Not On Beach",
-          10
-        ],
-        [
-          "Closed",
-          7
-        ],
-        [
-          "No Ac",
-          4
-        ]
+        ["No Pool", 56],
+        ["No View", 36],
+        ["Dirty", 24],
+        ["Bugs", 16],
+        ["Not On Beach", 10],
+        ["Closed", 7],
+        ["No Ac", 4]
       ],
       "selection": 0,
       "points": 0,
@@ -269,34 +215,13 @@
     },
     {
       "answers": [
-        [
-          "France",
-          28
-        ],
-        [
-          "Canada",
-          19
-        ],
-        [
-          "Japan",
-          15
-        ],
-        [
-          "England",
-          13
-        ],
-        [
-          "China",
-          10
-        ],
-        [
-          "India",
-          6
-        ],
-        [
-          "Italy",
-          6
-        ]
+        ["France", 28],
+        ["Canada", 19],
+        ["Japan", 15],
+        ["England", 13],
+        ["China", 10],
+        ["India", 6],
+        ["Italy", 6]
       ],
       "selection": 0,
       "points": 0,
@@ -305,8 +230,5 @@
       "question": "Other Than The U.S., What Country Is Known For Making Films?"
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

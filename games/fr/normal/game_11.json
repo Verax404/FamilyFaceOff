@@ -3,17 +3,17 @@
     {
       "answers": [
         {
-          "ans": "Laundry",
+          "ans": "Linge",
           "pnt": 27,
           "trig": false
         },
         {
-          "ans": "Dancing",
+          "ans": "Danse",
           "pnt": 21,
           "trig": false
         },
         {
-          "ans": "Mouth/Language",
+          "ans": "Bouche/Langue",
           "pnt": 17,
           "trig": false
         },
@@ -23,255 +23,253 @@
           "trig": false
         },
         {
-          "ans": "Job",
+          "ans": "Travail",
           "pnt": 8,
           "trig": false
         },
         {
-          "ans": "mind",
+          "ans": "esprit",
           "pnt": 6,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name Something That Begins With The Word “Dirty.”"
+      "question": "NOPE Nommez quelque chose qui commence par le mot « sale »."
     },
     {
       "answers": [
         {
-          "ans": "Moon ",
+          "ans": "Lune",
           "pnt": 54,
           "trig": false
         },
         {
-          "ans": "Sky ",
+          "ans": "Ciel",
           "pnt": 35,
           "trig": false
         },
         {
-          "ans": "Night ",
+          "ans": "Nuit",
           "pnt": 23,
           "trig": false
         },
         {
-          "ans": "Falling Stars ",
+          "ans": "Étoiles filantes",
           "pnt": 15,
           "trig": false
         },
         {
-          "ans": "Light ",
+          "ans": "Lumière",
           "pnt": 10,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name Something You Associate With Stars"
+      "question": "Nommez quelque chose que vous associez aux étoiles."
     },
     {
       "answers": [
         {
-          "ans": "Sing",
+          "ans": "Chanter",
           "pnt": 27,
           "trig": false
         },
         {
-          "ans": "Fall Asleep",
+          "ans": "S'endormir",
           "pnt": 26,
           "trig": false
         },
         {
-          "ans": "Make A Pit Stop",
+          "ans": "Faire un arrêt rapide",
           "pnt": 22,
           "trig": false
         },
         {
-          "ans": "Get Food",
+          "ans": "Obtenir de la nourriture",
           "pnt": 14,
           "trig": false
         },
         {
-          "ans": "Fight",
+          "ans": "Se disputer",
           "pnt": 5,
           "trig": false
         },
         {
-          "ans": "Hear Are We There Yet",
+          "ans": "Entendre 'Sommes-nous arrivés ?'",
           "pnt": 3,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name Something You Do At Least Twice In The Course Of A Long Car Ride With Family."
+      "question": "Nommez quelque chose que vous faites au moins deux fois au cours d'un long trajet en voiture en famille."
     },
     {
       "answers": [
         {
-          "ans": "Make Up",
+          "ans": "Se maquiller",
           "pnt": 26,
           "trig": false
         },
         {
-          "ans": "Nice Haircut",
+          "ans": "Belle coupe de cheveux",
           "pnt": 23,
           "trig": false
         },
         {
-          "ans": "Great Smile",
+          "ans": "Beau sourire",
           "pnt": 13,
           "trig": false
         },
         {
-          "ans": "Personality",
+          "ans": "Personnalité",
           "pnt": 12,
           "trig": false
         },
         {
-          "ans": "Clothes",
+          "ans": "Vêtements",
           "pnt": 8,
           "trig": false
         },
         {
-          "ans": "Money",
+          "ans": "Argent",
           "pnt": 7,
           "trig": false
         },
         {
-          "ans": "Alcohol",
+          "ans": "Alcool",
           "pnt": 6,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Name Something That Makes An Otherwise Average Person Seem Very Atrractive"
+      "question": "NOPE Nommez quelque chose qui rendrait une personne ordinaire très attirante."
     },
     {
       "answers": [
         {
-          "ans": "Crown ",
+          "ans": "Couronne",
           "pnt": 41,
           "trig": false
         },
         {
-          "ans": "Poncho ",
+          "ans": "Poncho",
           "pnt": 27,
           "trig": false
         },
         {
-          "ans": "Hat ",
+          "ans": "Chapeau",
           "pnt": 17,
           "trig": false
         },
         {
-          "ans": "Tiara ",
+          "ans": "Diadème",
           "pnt": 11,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Name A Garment People Wear On Their Head"
+      "question": "NOPE ommez un vêtement que les gens portent sur la tête."
     },
     {
       "answers": [
         {
-          "ans": "Smoking",
+          "ans": "Fumer",
           "pnt": 52,
           "trig": false
         },
         {
-          "ans": "Speeding",
+          "ans": "Excès de vitesse",
           "pnt": 34,
           "trig": false
         },
         {
-          "ans": "Eating",
+          "ans": "Manger",
           "pnt": 22,
           "trig": false
         },
         {
-          "ans": "Drinking",
+          "ans": "Boire",
           "pnt": 14,
           "trig": false
         },
         {
-          "ans": "Sleeping",
+          "ans": "Dormir",
           "pnt": 9,
           "trig": false
         },
         {
-          "ans": "Picking Nose",
+          "ans": "Se curer le nez",
           "pnt": 6,
           "trig": false
         },
         {
-          "ans": "Talking On Phone",
+          "ans": "Parler au téléphone",
           "pnt": 4,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Name Something You’D Hate To See The Valet Driver Doing With Your Car"
+      "question": "NOPE Nommez quelque chose que vous détesteriez voir le voiturier faire avec votre voiture."
     }
   ],
   "final_round": [
     {
       "answers": [
-        ["Kermit ", 45],
-        ["Miss Piggy ", 29],
-        ["Pinnochio ", 19],
-        ["Punch / Judy ", 12],
-        ["Basil Brush ", 8]
+        ["Kermit", 45],
+        ["Miss Piggy", 29],
+        ["Pinocchio", 19],
+        ["Punch / Judy", 12],
+        ["Basil Brush", 8]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name A Famous Puppet"
+      "question": "NOPE Nommez une marionnette célèbre."
     },
     {
       "answers": [
-        ["Finger Over Lens ", 44],
-        ["Shake Camera ", 29],
-        ["Lens Cap ", 19],
-        ["Out Of Focus ", 12],
-        ["Cut Head Off ", 8],
-        ["Forget Flash ", 5]
+        ["Doigt devant l'objectif", 44],
+        ["Secouer l'appareil photo", 29],
+        ["Bouchon d'objectif", 19],
+        ["Flou", 12],
+        ["Couper la tête", 8],
+        ["Oublier le flash", 5]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name Something You Can Mess Up When Taking Someones Picture"
+      "question": "NOPE Nommez quelque chose que vous pouvez rater en prenant la photo de quelqu'un."
     },
     {
       "answers": [
-        ["Chocolates ", 57],
-        ["Cigarettes ", 37],
-        ["Matches ", 24],
-        ["Cereal ", 16],
-        ["Tissues ", 10],
-        ["Biscuits ", 7]
+        ["Chocolats", 57],
+        ["Cigarettes", 37],
+        ["Allumettes", 24],
+        ["Céréales", 16],
+        ["Mouchoirs", 10],
+        ["Biscuits", 7]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name Something You Buy A Box Of When Shopping"
+      "question": "Nommez quelque chose que vous achetez en boîte lorsque vous faites des courses."
     },
     {
       "answers": [
-        ["Cell Phone", 50],
-        ["TV", 16],
-        ["Snacks/Food", 11],
-        ["Video Games", 8],
-        ["Computer", 5],
-        ["Listening To Music", 3],
-        ["A Loan", 3]
+        ["Cellulaire", 25],
+        ["Jeux vidéo", 16],
+        ["Collations/Nourriture", 11],
+        ["Ordinateur", 5],
+        ["Écouter de la musique", 3]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name Something A Teen Wouldn’t Be Able To Go Without For A Day."
+      "question": "Nommez quelque chose dont un adolescent ne pourrait pas se passer pendant une journée."
     }
   ],
   "final_round_timers": [20, 25]

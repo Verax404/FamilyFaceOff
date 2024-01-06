@@ -84,38 +84,38 @@
       "question": "Nommez quelque chose dont les gens ont souvent peur."
     },
     {
-      "answers": [
+      "rounds": [
         {
-          "ans": "Clés",
-          "pnt": 48,
-          "trig": false
+          "answers": [
+            {
+              "ans": "Clés",
+              "pnt": 48,
+              "trig": false
+            },
+            {
+              "ans": "Portefeuille",
+              "pnt": 32,
+              "trig": false
+            },
+            {
+              "ans": "Téléphone",
+              "pnt": 20,
+              "trig": false
+            },
+            {
+              "ans": "Lunettes",
+              "pnt": 17,
+              "trig": false
+            },
+            {
+              "ans": "Télécommande",
+              "pnt": 12,
+              "trig": false
+            }
+          ],
+          "multiply": 1,
+          "question": "Nommez quelque chose que les gens perdent souvent."
         },
-        {
-          "ans": "Portefeuille",
-          "pnt": 32,
-          "trig": false
-        },
-        {
-          "ans": "Téléphone",
-          "pnt": 20,
-          "trig": false
-        },
-        {
-          "ans": "Lunettes",
-          "pnt": 17,
-          "trig": false
-        },
-        {
-          "ans": "Télécommande",
-          "pnt": 12,
-          "trig": false
-        }
-      ],
-      "multiply": 1,
-      "question": "Nommez quelque chose que les gens perdent souvent."
-    },
-    {
-      "answers": [
         {
           "ans": "Le mariage",
           "pnt": 34,
@@ -254,7 +254,7 @@
           "ans": "Frites",
           "pnt": 10,
           "trig": false
-        },
+},
         {
           "ans": "Boisson gazeuse",
           "pnt": 10,
@@ -649,6 +649,7 @@
     },
     {
       "answers": [
+        },
         {
           "ans": "Marche",
           "pnt": 27,
@@ -767,7 +768,7 @@
           "pnt": 33,
           "trig": false
         },
-        {
+        { 
           "ans": "Horloge",
           "pnt": 43,
           "trig": false
@@ -842,9 +843,7 @@
       ],
       "multiply": 2,
       "question": "Nommez quelque chose que vous n'aimeriez pas voir lorsque vous retournez à votre voiture stationnée."
-    }
-  ],
-  "final_round": [
+    },
     {
       "answers": [
         ["Cheveux", 28],
@@ -858,7 +857,9 @@
       "input": "",
       "revealed": false,
       "question": "Nommez quelque chose qui pousse sans être arrosé."
-    },
+    }
+  ],
+  "final_round": [
     {
       "answers": [
         ["accesoires", 44],
@@ -877,7 +878,7 @@
         ["Médicaments prescrits", 42],
         ["Sous-vêtements", 38],
         ["Brosse à dents", 8],
-        ["Conjoint", 14]
+        ["Conjoint", 14],                                                                                                                                          ", 4]
       ],
       "selection": 0,
       "points": 0,

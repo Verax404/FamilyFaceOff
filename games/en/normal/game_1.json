@@ -3,48 +3,234 @@
     {
       "answers": [
         {
-          "ans": "",
-          "pnt": 43,
+          "ans": "Poison",
+          "pnt": 66,
           "trig": false
         },
         {
-          "ans": "",
-          "pnt": 20,
+          "ans": "Fusil/Balles",
+          "pnt": 16,
           "trig": false
         },
         {
-          "ans": "",
-          "pnt": 13,
+          "ans": "Couteau",
+          "pnt": 8,
           "trig": false
         },
         {
-          "ans": "",
-          "pnt": 11,
+          "ans": "Sel",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose qu'un mari pourrait voir dans la liste de magasinage de sa femme qui pourrait lui faire penser qu'elle planifie de le tuer."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Internet et réseaux sociaux",
+          "pnt": 66,
           "trig": false
         },
         {
-          "ans": "",
+          "ans": "Films/TV",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Animaux domestiques/Animaux",
+          "pnt": 12,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
           "pnt": 8,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": ""
+      "question": "Nommez quelque chose que les gens pourraient regarder pendant des heures."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Araignées",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Serpents",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Hauteur",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Obscurité",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Phénomène paranormaux/Fantomes",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose dont les gens ont souvent peur."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clés",
+          "pnt": 48,
+          "trig": false
+        },
+        {
+          "ans": "Portefeuille",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Téléphone",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Lunettes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Télécommande",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que les gens perdent souvent."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Le mariage",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "La naissance d'un enfant",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Graudation",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "La retraite",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "L'achat d'une maison",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez un événement marquant dans la vie d'une personne."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chien",
+          "pnt": 45,
+          "trig": false
+        },
+        {
+          "ans": "Chat",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Oiseau",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Poisson",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Hamster",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez un animal de compagnie populaire que l'on peut garder dans une maison."
     }
   ],
   "final_round": [
     {
       "answers": [
-        ["", 52],
-        ["", 34],
-        ["", 22],
-        ["", 14]
+        ["Cheveux", 28],
+        ["Mauvaises herbes", 25],
+        ["Cactus", 19],
+        ["Personnes", 5],
+        ["Ongles", 17]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": ""
+      "question": "Nommez quelque chose qui pousse sans être arrosé."
+    },
+    {
+      "answers": [
+        ["Accesoires", 44],
+        ["Collier", 29],
+        ["Vêtements", 19],
+        ["Muselière", 12]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez quelque chose que les chiens détestent que leurs propriétaires leur mettent."
+    },
+    {
+      "answers": [
+        ["Médicaments prescrits", 42],
+        ["Sous-vêtements", 38],
+        ["Brosse à dents", 8],
+        ["Conjoint", 14]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Dites-moi quelque chose que vous n'emprunteriez jamais à un ami proche."
+    },
+    {
+      "answers": [
+        ["Dormir", 41],
+        ["Aller glisser", 28],
+        ["Ski", 16],
+        ["Regarder la télévision/des films", 6],
+        ["Lire", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Quelle est la meilleure façon de passer une journée enneigée ?"
     }
   ],
   "final_round_timers": [20, 25]

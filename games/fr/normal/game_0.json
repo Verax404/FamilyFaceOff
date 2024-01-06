@@ -84,38 +84,38 @@
       "question": "Nommez quelque chose dont les gens ont souvent peur."
     },
     {
-      "rounds": [
+      "answers": [
         {
-          "answers": [
-            {
-              "ans": "Clés",
-              "pnt": 48,
-              "trig": false
-            },
-            {
-              "ans": "Portefeuille",
-              "pnt": 32,
-              "trig": false
-            },
-            {
-              "ans": "Téléphone",
-              "pnt": 20,
-              "trig": false
-            },
-            {
-              "ans": "Lunettes",
-              "pnt": 17,
-              "trig": false
-            },
-            {
-              "ans": "Télécommande",
-              "pnt": 12,
-              "trig": false
-            }
-          ],
-          "multiply": 1,
-          "question": "Nommez quelque chose que les gens perdent souvent."
+          "ans": "Clés",
+          "pnt": 48,
+          "trig": false
         },
+        {
+          "ans": "Portefeuille",
+          "pnt": 32,
+          "trig": false
+        },
+        {
+          "ans": "Téléphone",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Lunettes",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Télécommande",
+          "pnt": 12,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que les gens perdent souvent."
+    },
+    {
+      "answers": [
         {
           "ans": "Le mariage",
           "pnt": 34,
@@ -693,9 +693,260 @@
       ],
       "multiply": 2,
       "question": "Name Something You Might See On A Train"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clés",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Argent",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Téléphone",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Vêtements",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Pièce d'identité",
+          "pnt": 10,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que les gens ne devraient jamais oublier avant de sortir de leur maison."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Course à pied",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Marche",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Danse",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Exercice",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez une activité pour laquelle vous portez des chaussures confortables."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Curry",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Fromage",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Poisson",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Ail",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Oignons",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez une aliment qui a une odeur très forte."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Barman",
+          "pnt": 35,
+          "trig": false
+        },
+        {
+          "ans": "Policier",
+          "pnt": 18,
+          "trig": false
+        },
+        {
+          "ans": "Bouncer",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Serveur",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Centre de désintoxication",
+          "pnt": 6,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez un métier où vous rencontrez beaucoup de personnes ivres"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Cellulaire",
+          "pnt": 51,
+          "trig": false
+        },
+        {
+          "ans": "Radio",
+          "pnt": 33,
+          "trig": false
+        },
+        {
+          "ans": "Ordinateur",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Montre",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Four à micro-ondes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Mur",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Télévision",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose qui a une horloge."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Lits",
+          "pnt": 58,
+          "trig": false
+        },
+        {
+          "ans": "Médecin",
+          "pnt": 38,
+          "trig": false
+        },
+        {
+          "ans": "Infirmière",
+          "pnt": 25,
+          "trig": false
+        },
+        {
+          "ans": "Patients",
+          "pnt": 16,
+          "trig": false
+        },
+        {
+          "ans": "Aiguille",
+          "pnt": 11,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous pourriez voir dans un hôpital."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Ticket",
+          "pnt": 41,
+          "trig": false
+        },
+        {
+          "ans": "Rayures/Dommages",
+          "pnt": 23,
+          "trig": false
+        },
+        {
+          "ans": "Pneu dégonflé",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Sabot jaune",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Voiture disparue",
+          "pnt": 5,
+          "trig": false
+        },
+        {
+          "ans": "Caca de oiseau",
+          "pnt": 5,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous n'aimeriez pas voir lorsque vous retournez à votre voiture stationnée."
     }
   ],
   "final_round": [
+    {
+      "answers": [
+        ["Cheveux", 28],
+        ["Mauvaises herbes", 25],
+        ["Cactus", 19],
+        ["Personnes", 17],
+        ["Ongles", 3]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez quelque chose qui pousse sans être arrosé."
+    },
     {
       "answers": [
         ["Laisse", 44],
@@ -753,6 +1004,22 @@
       "input": "",
       "revealed": false,
       "question": "Quelle est la meilleure façon de passer une journée enneigée ?"
+    },
+    {
+      "answers": [
+        ["Jeans", 45],
+        ["Veste", 29],
+        ["T-shirt", 19],
+        ["Chapeau", 12],
+        ["Pantalon", 8],
+        ["Boucles d'oreilles", 5],
+        ["Ceintures", 3]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un vêtement porté par les hommes et les femmes."
     },
     {
       "answers": [
@@ -815,7 +1082,6 @@
     },
     {
       "answers": [
-        ["Centre commercial", 28],
         ["Hôpital", 18],
         ["Concert/Cinema", 16],
         ["Aéroport", 15],

@@ -9,7 +9,7 @@ export default function QuestionBoard(props) {
         className="rounded-3xl border-black grid lg:grid-rows-4 lg:grid-flow-col gap-3 bg-black flex-grow"
         style={{ borderWidth: 12 }}
       >
-        {props.round.answers.map((x, index) => (
+        {props.round && props.round.answers && props.round.answers.map((x, index) => (
           <div className=" uppercase items-center text-center rounded border-2 font-extrabold">
             {x.trig ? (
               // answered question - TABLEAU

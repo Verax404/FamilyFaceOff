@@ -68,3 +68,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.transition {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.fade-out {
+  opacity: 0;
+}

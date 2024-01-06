@@ -3,269 +3,236 @@
     {
       "answers": [
         {
-          "ans": "Frog",
-          "pnt": 67,
-          "trig": false
-        },
-        {
-          "ans": "worm",
-          "pnt": 17,
-          "trig": false
-        },
-        {
-          "ans": "pig",
-          "pnt": 8,
-          "trig": false
-        },
-        {
-          "ans": "rodent",
-          "pnt": 6,
-          "trig": false
-        }
-      ],
-      "multiply": 1,
-      "question": "Name something Kids Dissect In Science Class"
-    },
-    {
-      "answers": [
-        {
-          "ans": "Legs",
+          "ans": "Aiguille",
           "pnt": 46,
           "trig": false
         },
         {
-          "ans": "Hair",
+          "ans": "Porc-épic",
+          "pnt": 30,
+          "trig": false
+        },
+        {
+          "ans": "Cactus",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Clou",
+          "pnt": 13,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose de pointu."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Argent",
+          "pnt": 47,
+          "trig": false
+        },
+        {
+          "ans": "Vêtements/chaussures",
           "pnt": 21,
           "trig": false
         },
         {
-          "ans": "Ken",
+          "ans": "Nourriture",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Bijoux",
+          "pnt": 4,
+          "trig": false
+        },
+        {
+          "ans": "Amoureux",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose qu'un membre d'une famille pourrait voler à un autre."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Chocolat/Bonbons",
+          "pnt": 28,
+          "trig": false
+        },
+        {
+          "ans": "Chips",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Pizza",
           "pnt": 16,
           "trig": false
         },
         {
-          "ans": "Wears Clothes",
-          "pnt": 5,
+          "ans": "Frites",
+          "pnt": 10,
           "trig": false
         },
         {
-          "ans": "Car",
-          "pnt": 5,
-          "trig": false
-        },
-        {
-          "ans": "Lives On Land",
-          "pnt": 3,
+          "ans": "Boisson gazeuse",
+          "pnt": 10,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name Something For Which A Mermaid May Be Jealous Of Barbie."
+      "question": "Nommez une nourriture malsaine spécifique que vous ne voudriez jamais abandonner."
     },
     {
       "answers": [
         {
-          "ans": "Spouse",
-          "pnt": 36,
+          "ans": "Produits féminins",
+          "pnt": 46,
           "trig": false
         },
         {
-          "ans": "Doctor",
-          "pnt": 34,
+          "ans": "Maquillage",
+          "pnt": 26,
           "trig": false
         },
         {
-          "ans": "Parents",
-          "pnt": 13,
-          "trig": false
-        },
-        {
-          "ans": "Boy/Girl Friend",
-          "pnt": 5,
-          "trig": false
-        },
-        {
-          "ans": "Friend",
-          "pnt": 3,
-          "trig": false
-        },
-        {
-          "ans": "Children",
-          "pnt": 3,
-          "trig": false
-        }
-      ],
-      "multiply": 1,
-      "question": "Name Someone Who Might Tell You To Lose Weight"
-    },
-    {
-      "answers": [
-        {
-          "ans": "Sleep",
-          "pnt": 52,
-          "trig": false
-        },
-        {
-          "ans": "Eat",
-          "pnt": 34,
-          "trig": false
-        },
-        {
-          "ans": "Take A bath",
-          "pnt": 22,
-          "trig": false
-        },
-        {
-          "ans": null,
+          "ans": "Parfum de femme",
           "pnt": 14,
           "trig": false
         },
         {
-          "ans": "Read",
+          "ans": "Fleurs",
           "pnt": 9,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Name Something Kids Must Be Forced To Do, But Adults Love "
+      "question": "Nommez quelque chose que vous seriez surpris de trouver dans la salle de bains d'un homme célibataire."
     },
     {
       "answers": [
         {
-          "ans": "Price",
-          "pnt": 39,
+          "ans": "Bébés/Nouveau-née",
+          "pnt": 55,
           "trig": false
         },
         {
-          "ans": "Pool",
-          "pnt": 22,
+          "ans": "Verre/Vitre",
+          "pnt": 28,
           "trig": false
         },
         {
-          "ans": "Location",
-          "pnt": 22,
+          "ans": "Bijoux",
+          "pnt": 23,
           "trig": false
         },
         {
-          "ans": "Star Rating",
-          "pnt": 7,
-          "trig": false
-        },
-        {
-          "ans": "Includes Breakfast?",
-          "pnt": 5,
-          "trig": false
-        },
-        {
-          "ans": "Clean?",
-          "pnt": 3,
-          "trig": false
-        },
-        {
-          "ans": "Vacancy",
-          "pnt": 3,
+          "ans": "Oeufs",
+          "pnt": 17,
           "trig": false
         }
       ],
-      "multiply": 2,
-      "question": "Name Something You Find Out About A Hotel Ahead Of Time, When Decided Whether To Stay There."
+      "multiply": 1,
+      "question": "Nomme quelque chose que les gens doivent manipuler avec précaution."
     },
     {
       "answers": [
         {
-          "ans": "Jane Fonda",
-          "pnt": 52,
+          "ans": "Vêtements/chaussures",
+          "pnt": 50,
           "trig": false
         },
         {
-          "ans": "Jane Lynch",
+          "ans": "Voiture",
+          "pnt": 19,
+          "trig": false
+        },
+        {
+          "ans": "Vaisselle",
           "pnt": 17,
           "trig": false
         },
         {
-          "ans": "Jane Krakowski",
-          "pnt": 8,
+          "ans": "Enfants",
+          "pnt": 18,
           "trig": false
         },
         {
-          "ans": "Jane Curtain",
-          "pnt": 7,
-          "trig": false
-        },
-        {
-          "ans": "Jane Seymore",
-          "pnt": 6,
-          "trig": false
-        },
-        {
-          "ans": "Tarzan’s Jane",
-          "pnt": 5,
+          "ans": "Animaux domestiques/Animaux",
+          "pnt": 18,
           "trig": false
         }
       ],
-      "multiply": 2,
-      "question": "Name A “Jane” You’ve Seen On TV"
+      "multiply": 1,
+      "question": "Nommez quelque chose, autre que vous-même, que vous devez laver."
     }
   ],
   "final_round": [
     {
       "answers": [
-        ["Whistle ", 58],
-        ["Bubbles ", 38],
-        ["Balloon ", 25],
-        ["Nose ", 16],
-        ["Candle ", 11],
-        ["Kisses ", 7]
+        ["Jeans", 45],
+        ["Veste", 29],
+        ["T-shirt", 19],
+        ["Chapeau", 12],
+        ["Pantalon", 8],
+        ["Boucles d'oreilles", 5],
+        ["Ceintures", 3]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name Something You Blow"
+      "question": "Nommez un vêtement porté par les hommes et les femmes."
     },
     {
       "answers": [
-        ["Monkey ", 48],
-        ["Squirrel ", 31],
-        ["Cat ", 20],
-        ["Bear / Koala ", 13],
-        ["Racoon ", 9]
+        ["Manteau", 22],
+        ["Casque", 22],
+        ["Gilet pare-balles", 11],
+        ["Chapeau", 11],
+        ["Écran solaire", 9]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name An Animal That Can Climb Trees"
+      "question": "Nommez quelque chose que les gens portent pour se protéger."
     },
     {
       "answers": [
-        ["Sears", 30],
-        ["JCPenny’s", 22],
-        ["Toys R Us", 15],
-        ["Ikea", 11],
-        ["Hickory Farms", 6],
-        ["Crate And Barrel", 5],
-        ["Neiman Marcus", 5]
+        ["Plus", 25],
+        ["Égal", 19],
+        ["Multiplier", 14],
+        ["Diviser", 12],
+        ["ON/OFF", 8],
+        ["Pourcentage", 8],
+        ["Moins", 6]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name A Company Which Sends Out Special Holiday Catalog."
+      "question": "À part les chiffres, nommez un bouton sur une calculatrice."
     },
     {
       "answers": [
-        ["Seventeen", 37],
-        ["Teen", 26],
-        ["Tiger Beat", 17],
-        ["Teen People", 8],
-        ["Cosmogirl", 7]
+        ["Jouer à des jeux vidéo.", 28],
+        ["Utiliser les médias sociaux", 26],
+        ["Écouter de la musique.", 16],
+        ["Faire du sport ou s'entraîner.", 12],
+        ["Discuter avec des amis en ligne ou en personne.", 10],
+        ["Regarder la télévision/films/télé-series", 4]
       ],
       "selection": 0,
       "points": 0,
       "input": "",
       "revealed": false,
-      "question": "Name A Magazine Teenagers Buy."
+      "question": "Nommez quelque chose qu'un adolescent peut faire pendant une plus longues durée que ses parents."
     }
   ],
   "final_round_timers": [20, 25]

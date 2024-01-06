@@ -156,7 +156,6 @@ export default function TitleLogo(props) {
     </g>
       // ------ Text of Family -------
     <text
-      stroke="black"
       transform="rotate(-4.3169998)"
       id="text64"
     >
@@ -170,6 +169,9 @@ export default function TitleLogo(props) {
         <tspan
           style="fill: url(#g);"
           font-size="${adjustTextSize(t("family"))}"
+          stroke="#000000" // Set the stroke color for the border
+          stroke-width="2"   // Set the thickness of the border
+          fill="none"        // Set fill to none to only show the border
           text-anchor="middle"
           stroke-width="1"
           stroke-linejoin="round"
@@ -201,7 +203,9 @@ export default function TitleLogo(props) {
           "
          font-size="${adjustTextSize(t("feud"))}"
           text-anchor="middle"
-          stroke-width="1"
+          stroke="#000000" // Set the stroke color for the border
+          stroke-width="2"   // Set the thickness of the border
+          fill="none"        // Set fill to none to only show the border
           id="tspan66"
         >
           ${t("feud")}

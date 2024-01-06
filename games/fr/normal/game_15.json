@@ -3,131 +3,121 @@
     {
       "answers": [
         {
-          "ans": "Boots",
+          "ans": "Bottes",
           "pnt": 26,
           "trig": false
         },
         {
-          "ans": "Saddles",
+          "ans": "Selles",
           "pnt": 25,
           "trig": false
         },
         {
-          "ans": "Cowboy Hat",
+          "ans": "Chapeau de cowboy",
           "pnt": 19,
           "trig": false
         },
         {
-          "ans": "Rope",
+          "ans": "Corde",
           "pnt": 7,
           "trig": false
         },
         {
-          "ans": "Horse",
+          "ans": "Cheval",
           "pnt": 7,
           "trig": false
         },
         {
-          "ans": "Spurs",
-          "pnt": 5,
-          "trig": false
-        },
-        {
-          "ans": "Gun",
+          "ans": "Arme à feu",
           "pnt": 3,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name Something You Might See At A Cowboy’s Yard Sale."
+      "question": "Nommez quelque chose que vous pourriez voir à une vente de garage d'un cowboy."
     },
     {
       "answers": [
         {
-          "ans": "Name",
+          "ans": "Nom",
           "pnt": 42,
           "trig": false
         },
         {
-          "ans": "Address",
+          "ans": "Adresse",
           "pnt": 22,
           "trig": false
         },
         {
-          "ans": "Phone Number",
+          "ans": "Numéro de téléphone",
           "pnt": 21,
           "trig": false
         },
         {
-          "ans": "Owner’s Name",
+          "ans": "Nom du propriétaire",
           "pnt": 11,
-          "trig": false
-        },
-        {
-          "ans": "Reward",
-          "pnt": 2,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name A Piece Of Information That Might Be On A Dog’s Tag."
+      "question": "Nommez une information qui pourrait figurer sur le collier d'un chien."
     },
     {
       "answers": [
         {
-          "ans": "Ant",
+          "ans": "Fourmi",
           "pnt": 43,
           "trig": false
         },
         {
-          "ans": "Beaver",
+          "ans": "Castor",
           "pnt": 24,
           "trig": false
         },
         {
-          "ans": "Horse",
+          "ans": "Cheval",
           "pnt": 19,
           "trig": false
         },
         {
-          "ans": "Bee",
+          "ans": "Abeille",
           "pnt": 9,
           "trig": false
         }
       ],
       "multiply": 1,
-      "question": "Name A Creature Who Would Be Rich If They Were Paid For All The Work They Seem To Do."
+      "question": "Nommez une créature qui serait riche si elle était payée pour tout le travail qu'elle fait."
     },
     {
       "answers": [
         {
-          "ans": "Happiness",
+          "ans": "Bonheur",
           "pnt": 38,
           "trig": false
         },
         {
-          "ans": "Health",
+          "ans": "Santé",
           "pnt": 22,
           "trig": false
         },
         {
-          "ans": "Friendship",
+          "ans": "Amitié",
           "pnt": 14,
           "trig": false
         },
         {
-          "ans": "Family",
+          "ans": "Famille",
           "pnt": 8,
           "trig": false
         },
         {
-          "ans": "Time",
+          "ans": "Temps",
           "pnt": 7,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Other Than Love, Name Something That “Money Can’t Buy”."
+      "question": "Autre que l'amour, nommez quelque chose que 'l'argent ne peut pas acheter'."
     },
     {
       "answers": [
@@ -137,182 +127,76 @@
           "trig": false
         },
         {
-          "ans": "Break Down",
+          "ans": "Panne",
           "pnt": 25,
           "trig": false
         },
         {
-          "ans": "Flat Tire",
+          "ans": "Pneu crevé",
           "pnt": 18,
           "trig": false
         },
         {
-          "ans": "Rain",
+          "ans": "Pluie",
           "pnt": 6,
           "trig": false
         },
         {
-          "ans": "Run Out Of Gas",
+          "ans": "Tomber en panne d'essence",
           "pnt": 4,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "What Would You Hate To Have Happen When Driving Home In A Brand New Car?"
+      "question": "En rentrant chez vous, nommmez quelque chose que vous n'aimeriez pas qu'il arrive avec votre voiture récemment achetée ?"
     },
     {
       "answers": [
         {
-          "ans": "Trees",
+          "ans": "Arbres",
           "pnt": 43,
           "trig": false
         },
         {
-          "ans": "Trash Can",
+          "ans": "Poubelle",
           "pnt": 19,
           "trig": false
         },
         {
-          "ans": "plants",
+          "ans": "Plantes",
           "pnt": 16,
           "trig": false
         },
         {
-          "ans": "Swing Set",
+          "ans": "Parapluie",
           "pnt": 5,
           "trig": false
         },
         {
-          "ans": "Umbrella",
-          "pnt": 5,
-          "trig": false
-        },
-        {
-          "ans": "Chairs",
+          "ans": "Chaises",
           "pnt": 5,
           "trig": false
         }
       ],
       "multiply": 2,
-      "question": "Name Something That Gets Knocked Over When Its Really Windy."
+      "question": "Nommez quelque chose qui tombe quand il y a beaucoup de vent."
     }
   ],
   "final_round": [
     {
       "answers": [
-        [
-          "Turns Skin Green",
-          56
-        ],
-        [
-          "Bite It/Bendable",
-          30
-        ],
-        [
-          "Scratches Easily",
-          8
-        ],
-        [
-          "Have It Appraised",
-          3
-        ]
+        ["Fumer", 64],
+        ["Boire", 12],
+        ["Se ronger les ongles", 7],
+        ["Jouer", 7],
+        ["Faire du shopping", 4]
       ],
-      "selection": 0,
+      "sélection": 0,
       "points": 0,
       "input": "",
-      "revealed": false,
-      "question": "How Can You Tell The Jewelry Your Partner Gives You Is Made Of Fake Gold?"
-    },
-    {
-      "answers": [
-        [
-          "Smoking",
-          64
-        ],
-        [
-          "Drinking",
-          12
-        ],
-        [
-          "Biting Nails",
-          7
-        ],
-        [
-          "Gambling",
-          7
-        ],
-        [
-          "Shopping",
-          4
-        ]
-      ],
-      "selection": 0,
-      "points": 0,
-      "input": "",
-      "revealed": false,
-      "question": "Name A Habit That Would Be Impossible To Hide From Your Spouse"
-    },
-    {
-      "answers": [
-        [
-          "Exorcist",
-          26
-        ],
-        [
-          "Scream",
-          19
-        ],
-        [
-          "Psycho",
-          15
-        ],
-        [
-          "Halloween",
-          13
-        ],
-        [
-          "The Ring",
-          12
-        ],
-        [
-          "Friday The 13th",
-          9
-        ],
-        [
-          "The Shining",
-          6
-        ]
-      ],
-      "selection": 0,
-      "points": 0,
-      "input": "",
-      "revealed": false,
-      "question": "What Movie Would You Never Watch Alone?"
-    },
-    {
-      "answers": [
-        [
-          "Purring",
-          47
-        ],
-        [
-          "Meows",
-          31
-        ],
-        [
-          "Whiskers",
-          20
-        ]
-      ],
-      "selection": 0,
-      "points": 0,
-      "input": "",
-      "revealed": false,
-      "question": "Sign That Girlfriend Is Turning Into A Cat"
+      "révélé": false,
+      "question": "Nommez une habitude impossible à cacher à votre conjoint."
     }
   ],
-  "final_round_timers": [
-    20,
-    25
-  ]
+  "final_round_timers": [20, 25]
 }

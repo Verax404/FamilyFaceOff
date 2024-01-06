@@ -1,6 +1,206 @@
 {
   "rounds": [
-   
+    {
+      "answers": [
+        {
+          "ans": "Fleurs",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Soleil",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Maillot de bain",
+          "pnt": 15,
+          "trig": false
+        },
+        {
+          "ans": "Vêtements léger",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Insectes",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Enfants qui jouent",
+          "pnt": 8,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez quelque chose que l'on voit beaucoup en été."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Fumer",
+          "pnt": 52,
+          "trig": false
+        },
+        {
+          "ans": "Excès de vitesse",
+          "pnt": 34,
+          "trig": false
+        },
+        {
+          "ans": "Manger",
+          "pnt": 22,
+          "trig": false
+        },
+        {
+          "ans": "Boire",
+          "pnt": 14,
+          "trig": false
+        },
+        {
+          "ans": "Dormir",
+          "pnt": 9,
+          "trig": false
+        },
+        {
+          "ans": "Manque d'hygiène",
+          "pnt": 6,
+          "trig": false
+        },
+        {
+          "ans": "Parler au téléphone",
+          "pnt": 4,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que vous détesteriez voir le voiturier faire avec votre voiture."
+    },
+    {
+      "answers": [
+        {
+          "ans": "People Or Passengers ",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Conductor ",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Seats ",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Guard ",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Driver ",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Name Something You Might See On A Train"
+    },
+    {
+      "answers": [
+        {
+          "ans": "Clés",
+          "pnt": 56,
+          "trig": false
+        },
+        {
+          "ans": "Argent",
+          "pnt": 24,
+          "trig": false
+        },
+        {
+          "ans": "Téléphone",
+          "pnt": 20,
+          "trig": false
+        },
+        {
+          "ans": "Vêtements",
+          "pnt": 36,
+          "trig": false
+        },
+        {
+          "ans": "Pièce d'identité",
+          "pnt": 15,
+          "trig": false
+        }
+      ],
+      "multiply": 2,
+      "question": "Nommez quelque chose que les gens ne devraient jamais oublier avant de sortir de leur maison."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Marche",
+          "pnt": 27,
+          "trig": false
+        },
+        {
+          "ans": "Danse",
+          "pnt": 8,
+          "trig": false
+        },
+        {
+          "ans": "Sports",
+          "pnt": 10,
+          "trig": false
+        },
+        {
+          "ans": "Exercice",
+          "pnt": 29,
+          "trig": false
+        },
+        {
+          "ans": "Shopping",
+          "pnt": 3,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez une activité pour laquelle vous portez des chaussures confortables."
+    },
+    {
+      "answers": [
+        {
+          "ans": "Curry",
+          "pnt": 17,
+          "trig": false
+        },
+        {
+          "ans": "Fromage",
+          "pnt": 26,
+          "trig": false
+        },
+        {
+          "ans": "Poisson",
+          "pnt": 40,
+          "trig": false
+        },
+        {
+          "ans": "Ail",
+          "pnt": 11,
+          "trig": false
+        },
+        {
+          "ans": "Oignons",
+          "pnt": 7,
+          "trig": false
+        }
+      ],
+      "multiply": 1,
+      "question": "Nommez une aliment qui a une odeur très forte."
+    }
   ],
   "final_round": [
    

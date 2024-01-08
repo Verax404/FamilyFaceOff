@@ -27,7 +27,9 @@ export default function Game(props) {
 
   useEffect(() => {
     fetch("/api/ws").finally(() => {
+      console.log('test --> wss://${window.location.host}/api/ws');
       ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
+      console.log('wss://${window.location.host}/api/ws');
       ws.current.onopen = function () {
         console.log("game connected to server");
         let session = cookieCutter.get("session");

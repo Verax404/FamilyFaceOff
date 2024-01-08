@@ -12,10 +12,15 @@ export default function Login(props) {
         <LanguageSwitcher />
       </div>
       <TitleLogo insert="" />
-      
+
       <div className="flex flex-col">
         <div className="flex flex-row justify-between text-1xl px-2">
-          <p className="uppercase" style={{ fontWeight: 'bold', color:"white" }}>{t("room code")}</p>
+          <p
+            className="uppercase"
+            style={{ fontWeight: "bold", color: "white" }}
+          >
+            {t("room code")}
+          </p>
         </div>
 
         <input
@@ -32,7 +37,12 @@ export default function Login(props) {
 
       <div className="flex flex-col">
         <div className="flex flex-row justify-between text-1xl px-2">
-          <p className="uppercase" style={{ fontWeight: 'bold', color:"white" }}>{t("name")}</p>
+          <p
+            className="uppercase"
+            style={{ fontWeight: "bold", color: "white" }}
+          >
+            {t("name")}
+          </p>
           <p>{12 - props.playerName.length}</p>
         </div>
         <input
@@ -48,7 +58,8 @@ export default function Login(props) {
       </div>
       <div className="flex flex-row items-center space-x-5">
         <button
-          className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"style={{ fontWeight: 'bold', color:"white" }} 
+          className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
+          style={{ fontWeight: "bold", color: "white" }}
           onClick={() => {
             props.joinRoom();
           }}
@@ -58,7 +69,9 @@ export default function Login(props) {
         <button
           className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase"
           onClick={() => {
+            console.log("Host Button clicked");
             props.hostRoom();
+            console.log("props.hostRoom done");
           }}
         >
           {t("host")}
@@ -67,7 +80,6 @@ export default function Login(props) {
       {props.error !== "" ? (
         <p className="text-2xl text-failure-700">{props.error}</p>
       ) : null}
-
     </>
   );
 }

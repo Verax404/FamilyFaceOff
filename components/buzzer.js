@@ -58,6 +58,7 @@ export default function Buzzer(props) {
     ws.current.addEventListener("message", (evt) => {
       let received_msg = evt.data;
       let json = JSON.parse(received_msg);
+      console.log("Received WebSocket Message:", json);
       if (json.action === "ping") {
         // server gets the average latency periodically
         console.debug(props.id);
@@ -113,7 +114,8 @@ export default function Buzzer(props) {
     return (
       <>
         <button
-          className="shadow-md rounded-lg p-2 hover:bg-red-300 text-1xl font-bold uppercase w-24 self-end" style={{background :"#D6D58E"}}
+          className="shadow-md rounded-lg p-2 hover:bg-red-300 text-1xl font-bold uppercase w-24 self-end"
+          style={{ background: "#D6D58E" }}
           onClick={() => {
             send({ action: "quit" });
           }}
@@ -123,13 +125,14 @@ export default function Buzzer(props) {
         {buzzerReg !== null ? (
           <>
             {!game.title && !game.is_final_round ? (
-
-
               <div className="pt-8 flex flex-col space-y-5">
                 {/*<Round game={game} />*/}
 
-                {/* Buzzer Section TODO replace with function*/}
-                <div className="" style={{ width: "100%", textAlign: "center" }}>
+                {/* BUZZER BUTTON */}
+                <div
+                  className=""
+                  style={{ width: "100%", textAlign: "center" }}
+                >
                   {buzzed ? (
                     <img
                       style={{ width: "100%", display: "inline-block" }}
@@ -154,18 +157,17 @@ export default function Buzzer(props) {
                 </div>
                 {/* END Buzzer Section TODO replace with function*/}
                 <div className="flex flex-row justify-between min-w-full space-x-3">
-              {/* TEAM NAME
+                  {/* TEAM NAME
                   <TeamName game={game} team={0} />
                   <TeamName game={game} team={1} />
                 */}
                 </div>
-                
+
                 {/* HIDES ANSWERS BOARD FROM PLAYER ------------
                 <div className="">
                   <QuestionBoard round={game.rounds[game.round]} />
                 </div>
               */}
-                
               </div>
             ) : (
               <>
@@ -176,13 +178,9 @@ export default function Buzzer(props) {
                 ) : (
                   <div>
                     {props.game.settings.logo_url ? (
-                      <img
-                        src={`${props.game.settings.logo_url}`}
-                      />
+                      <img src={`${props.game.settings.logo_url}`} />
                     ) : (
-                      <TitleLogo
-                        insert={props.game.title_text}
-                      />
+                      <TitleLogo insert={props.game.title_text} />
                     )}
                     <p className="text-3xl text-center py-12 text-foreground">
                       {t("Waiting for host to start")}
@@ -195,13 +193,9 @@ export default function Buzzer(props) {
         ) : (
           <>
             {props.game.settings.logo_url ? (
-              <img
-                src={`${props.game.settings.logo_url}`}
-              />
+              <img src={`${props.game.settings.logo_url}`} />
             ) : (
-              <TitleLogo
-                insert={props.game.title_text}
-              />
+              <TitleLogo insert={props.game.title_text} />
             )}
             <div className="flex flex-row justify-center">
               <h1 className="text-3xl text-foreground">
@@ -213,7 +207,8 @@ export default function Buzzer(props) {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <button
-                className="hover:shadow-md rounded-md p-5" style={{background : "#005C53"}}
+                className="hover:shadow-md rounded-md p-5"
+                style={{ background: "#005C53" }}
                 onClick={() => {
                   cookieCutter.set("session", `${props.room}:${props.id}:0`);
                   props.setTeam(0);
@@ -223,7 +218,8 @@ export default function Buzzer(props) {
               </button>
 
               <button
-                className="hover:shadow-md rounded-md p-5" style={{background : "#005C53"}}
+                className="hover:shadow-md rounded-md p-5"
+                style={{ background: "#005C53" }}
                 onClick={() => {
                   cookieCutter.set("session", `${props.room}:${props.id}:1`);
                   props.setTeam(1);
@@ -234,7 +230,8 @@ export default function Buzzer(props) {
             </div>
             <div className="flex flex-row justify-center">
               <button
-                className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"style={{background : "#9FC131"}}
+                className="py-8 px-16 hover:shadow-md rounded-md bg-success-200 uppercase"
+                style={{ background: "#9FC131" }}
                 onClick={() => {
                   if (props.team != null) {
                     send({ action: "registerbuzz", team: props.team });

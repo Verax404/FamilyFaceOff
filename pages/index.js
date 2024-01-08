@@ -63,7 +63,7 @@ export default function Home() {
             var received_msg = evt.data;
             let json = JSON.parse(received_msg);
             if (json.action === "host_room") {
-              console.debug("registering room with host", json.room);
+              console.debug("registering room with host - JSON ROOM : ", json.room);
               setPlayerID(json.id);
               setHost(true);
               setRegisteredRoomCode(json.room);
@@ -129,12 +129,14 @@ export default function Home() {
     }
   }, []);
 
-  function hostRoom() {
-    send(
+  async function hostRoom() {
+    console.log('hostRoom Function called');
+    await send(
       JSON.stringify({
         action: "host_room",
       })
     );
+    console.log('hostRoom Function Done');
   }
 
   /**
@@ -164,7 +166,7 @@ export default function Home() {
     }
   }
 
-  console.debug(`game: ${game}`);
+  console.debug(`NO GAME FOR NOW... : ${game}`);
 
   // control what to render based on if the player is hosting
   function getPage() {

@@ -209,13 +209,15 @@ export default function Buzzer(props) {
                         </audio>
                       </>
                     )}
+                    { /*
                     <p className="text-secondary-900 p-2 italic">
                       {t("buzzer is reset between rounds")}
                     </p>
                     <button id="play">Play</button>
                     {error !== "" ? (
                       <p className="text-2xl text-failure-700">{error}</p>
-                    ) : null}
+                    ) : null}*/
+                    }
                   </div>
                   {/* END Buzzer Section TODO replace with function*/}
                   <div className="flex flex-row justify-between min-w-full space-x-3">

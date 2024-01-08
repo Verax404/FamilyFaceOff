@@ -178,7 +178,7 @@ export default function Buzzer(props) {
                   {/* BUZZER BUTTON */}
                   <div
                     className="center-container"
-                    style={{ width: "100%", textAlign: "center" }}
+                    style={{ width: "150%", textAlign: "center" }}
                   >
                     {buzzed ? (
                       <>

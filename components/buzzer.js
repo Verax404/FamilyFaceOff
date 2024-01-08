@@ -214,8 +214,6 @@ export default function Buzzer(props) {
         window.scrollTo(0, 0);
       });
     };
-
-    
   }, [buzzed]);
 
   if (game.teams != null) {
@@ -227,6 +225,10 @@ export default function Buzzer(props) {
         body {
           overflow: ${buzzed ? "hidden" : "auto"};
           position: fixed;
+        }
+
+        html, body {
+             overscroll-behavior: none;
         }
       `}
         </style>

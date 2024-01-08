@@ -233,6 +233,20 @@
       "input": "",
       "revealed": false,
       "question": "Nommez quelque chose qu'un adolescent peut faire pendant une plus longues durée que ses parents."
+    },
+    {
+      "answers": [
+        ["Singe", 48],
+        ["Écureuil", 31],
+        ["Chat", 20],
+        ["Ours / Koala", 13],
+        ["Raton laveur", 9]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Nommez un animal qui peut grimper aux arbres."
     }
   ],
   "final_round_timers": [20, 25]

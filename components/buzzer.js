@@ -7,9 +7,14 @@ import cookieCutter from "cookie-cutter";
 import Round from "./round";
 import QuestionBoard from "./question-board.js";
 import TeamName from "./team-name.js";
+import getConfig from "next/config";
 import Final from "./final";
 
 let timerInterval = null;
+
+const {
+  publicRuntimeConfig: { BUZZER_SOUND },
+} = getConfig();
 
 export default function Buzzer(props) {
   const { i18n, t } = useTranslation();
@@ -107,7 +112,7 @@ export default function Buzzer(props) {
         console.debug("didnt expect action in buzzer: ", json);
       }
     });
-  }, []);
+  }, [buzzed]);
 
   if (game.teams != null) {
     console.debug(game);
@@ -134,10 +139,16 @@ export default function Buzzer(props) {
                   style={{ width: "100%", textAlign: "center" }}
                 >
                   {buzzed ? (
-                    <img
-                      style={{ width: "100%", display: "inline-block" }}
-                      src="buzzed.svg"
-                    />
+                    <>
+                      <img
+                        style={{ width: "100%", display: "inline-block" }}
+                        src="buzzed.svg"
+                      />
+                      <audio autoPlay>
+                        <source src={BUZZER_SOUND} type="audio/mp3" />
+                        {console.debug('BUZZED')}
+                      </audio>
+                    </>
                   ) : (
                     <img
                       className="cursor-pointer"

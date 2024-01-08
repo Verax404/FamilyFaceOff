@@ -37,7 +37,7 @@ const ioHandler = (req, res) => {
             console.debug("Player disconnected, closing ping", id);
             clearInterval(interval);
           } else {
-            console.debug("Sending ping to id", id);
+            console.debug("Sending ping to id : ", id);
             room.game.registeredPlayers[id].start = new Date();
             ws.send(JSON.stringify({ action: "ping", id: id }));
           }
@@ -100,12 +100,12 @@ const ioHandler = (req, res) => {
       },
       teams: [
         {
-          name: "Équipe 1",
+          name: "Team 1",
           points: 0,
           mistakes: 0,
         },
         {
-          name: "Équipe 2",
+          name: "Team 2",
           points: 0,
           mistakes: 0,
         },
@@ -125,7 +125,7 @@ const ioHandler = (req, res) => {
           rooms[room].connections[rp].send(data);
         });
       } else {
-        console.error("Room Code introuvable", room);
+        console.error("room code not found in rooms", room);
       }
     };
 
@@ -142,7 +142,8 @@ const ioHandler = (req, res) => {
           if (rooms[message.room].game) {
             if (message.action !== "pong") {
               // Show in logs if there are any active players
-              console.debug(`Tick => ${message.room} ${message.action}`)
+              console.debug(`Tick => !!!! ${message.room} ${message.action}`)
+              console.debug("BUTTON CLICKED ",rooms[message.room].game.tick)
             }
             rooms[message.room].game.tick = new Date().getTime();
           }
@@ -384,7 +385,7 @@ const ioHandler = (req, res) => {
                 JSON.stringify({ action: "clearbuzzers" })
               );
             }
-            // get the current time to compare when users bouton in
+            // get the current time to compare when users buzz in
             wss.broadcast(
               message.room,
               JSON.stringify({ action: "data", data: game })
@@ -459,7 +460,7 @@ const ioHandler = (req, res) => {
                 );
               }
             );
-          } else if (message.action === "bouton") {
+          } else if (message.action === "buzz") {
             let game = rooms[message.room].game;
             let time =
               new Date().getTime() - game.registeredPlayers[message.id].latency;
@@ -468,7 +469,7 @@ const ioHandler = (req, res) => {
             } else {
               for (const [i, b] of game.buzzed.entries()) {
                 if (b.time < time) {
-                  // saved buzzed was quicker than incoming bouton
+                  // saved buzzed was quicker than incoming buzz
                   if (i === game.buzzed.length - 1) {
                     game.buzzed.push({ id: message.id, time: time });
                     break;

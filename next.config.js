@@ -8,4 +8,7 @@ module.exports = {
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
+  publicRuntimeConfig: {
+    BUZZER_SOUND: '/buzzed.mp3',
+  },
 };

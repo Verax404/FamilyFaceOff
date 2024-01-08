@@ -231,6 +231,20 @@
       "input": "",
       "revealed": false,
       "question": "Quelle est la meilleure façon de passer une journée enneigée ?"
+    },
+    {
+      "answers": [
+        ["Hôpital", 18],
+        ["Concert/Cinema", 16],
+        ["Aéroport", 15],
+        ["Travail/Centre-ville", 14],
+        ["Événement sportif", 6]
+      ],
+      "selection": 0,
+      "points": 0,
+      "input": "",
+      "revealed": false,
+      "question": "Dites-moi un endroit où vous devez souvent payer pour le stationnement."
     }
   ],
   "final_round_timers": [20, 25]

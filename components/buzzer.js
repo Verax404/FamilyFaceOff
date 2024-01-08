@@ -4,9 +4,6 @@ import "tailwindcss/tailwind.css";
 import { useTranslation } from "react-i18next";
 import "../i18n/i18n";
 import cookieCutter from "cookie-cutter";
-import Round from "./round";
-import QuestionBoard from "./question-board.js";
-import TeamName from "./team-name.js";
 import getConfig from "next/config";
 import Final from "./final";
 
@@ -22,6 +19,9 @@ export default function Buzzer(props) {
   const [buzzerReg, setBuzzerReg] = useState(null);
   const [error, setErrorVal] = useState("");
   const [timer, setTimer] = useState(0);
+
+  // Add a state to manage button disable state
+  const [buttonsDisabled, setButtonsDisabled] = useState(false);
 
   const audioRef = useRef(null);
   let refreshCounter = 0;
@@ -45,6 +45,21 @@ export default function Buzzer(props) {
     data.room = props.room;
     data.id = props.id;
     ws.current.send(JSON.stringify(data));
+  };
+
+  const handleBuzzClick = () => {
+    // Send buzz action to the server
+    send({ action: "buzz", id: props.id });
+
+    // Play the buzzer sound
+    if (audioRef.current) {
+      audioRef.current.play().catch((error) => {
+        console.error("Audio playback error:", error);
+      });
+    }
+
+    // Broadcast the state change to all connected clients
+    send({ action: "disable_buttons", id: props.id });
   };
 
   useEffect(() => {
@@ -106,8 +121,12 @@ export default function Buzzer(props) {
         props.setGame(json.data);
       } else if (json.action === "buzzed") {
         setBuzzed(true);
+        // Add logic to disable buttons on all devices
+        setButtonsDisabled(true);
       } else if (json.action === "clearbuzzers") {
         setBuzzed(false);
+        // Add logic to enable buttons on all devices
+        setButtonsDisabled(false);
       } else if (json.action === "change_lang") {
         console.debug("Language Change", json.data);
         i18n.changeLanguage(json.data);
@@ -173,66 +192,68 @@ export default function Buzzer(props) {
         </button>
         {buzzerReg !== null ? (
           <>
-              {!game.title && !game.is_final_round ? (
-                <div className="pt-8 flex flex-col space-y-5">
-                  {/* BUZZER BUTTON */}
-                  <div
-                    className="center-container"
-                    style={{ width: "110%", textAlign: "center" }}
-                  >
-                    {buzzed ? (
-                      <>
-                        <img
-                          style={{ width: "100%", display: "inline-block" }}
-                          src="buzzed.svg"
-                        />
-                        <audio ref={audioRef} autoPlay={false}>
-                          <source src={BUZZER_SOUND} type="audio/mp3" />
-                        </audio>
-                      </>
-                    ) : (
-                      <>
-                        <img
-                          className="cursor-pointer"
-                          style={{ width: "100%", display: "inline-block" }}
-                          onClick={() => {
-                            send({ action: "buzz", id: props.id });
-                            if (audioRef.current) {
-                              audioRef.current.play().catch((error) => {
-                                // Handle play error if necessary
-                                console.error("Audio playback error:", error);
-                              });
-                            }
-                          }}
-                          src="buzz.svg"
-                        />
-                        <audio ref={audioRef} autoPlay={false}>
-                          <source src={BUZZER_SOUND} type="audio/mp3" />
-                        </audio>
-                      </>
-                    )}
-                  </div>
-                </div>
-              ) : (
-                <>
-                  {game.is_final_round ? (
-                    <div>
-                      <Final game={game} timer={timer} />
-                    </div>
+            {!game.title && !game.is_final_round ? (
+              <div className="pt-8 flex flex-col space-y-5">
+                {/* BUZZER BUTTON */}
+                <div
+                  className="center-container"
+                  style={{ width: "110%", textAlign: "center" }}
+                >
+                  {buzzed ? (
+                    <>
+                      <img
+                        className={`cursor-pointer ${buttonsDisabled ? 'opacity-50' : ''}`}
+                        style={{ width: "100%", display: "inline-block" }}
+                        onClick={!buttonsDisabled ? handleBuzzClick : undefined}
+                        src="buzzed.svg"
+                      />
+                      <audio ref={audioRef} autoPlay={false}>
+                        <source src={BUZZER_SOUND} type="audio/mp3" />
+                      </audio>
+                    </>
                   ) : (
-                    <div>
-                      {props.game.settings.logo_url ? (
-                        <img src={`${props.game.settings.logo_url}`} />
-                      ) : (
-                        <TitleLogo insert={props.game.title_text} />
-                      )}
-                      <p className="text-3xl text-center py-12 text-foreground">
-                        {t("Waiting for host to start")}
-                      </p>
-                    </div>
+                    <>
+                      <img
+                        className="cursor-pointer"
+                        style={{ width: "100%", display: "inline-block" }}
+                        onClick={() => {
+                          send({ action: "buzz", id: props.id });
+                          if (audioRef.current) {
+                            audioRef.current.play().catch((error) => {
+                              // Handle play error if necessary
+                              console.error("Audio playback error:", error);
+                            });
+                          }
+                        }}
+                        src="buzz.svg"
+                      />
+                      <audio ref={audioRef} autoPlay={false}>
+                        <source src={BUZZER_SOUND} type="audio/mp3" />
+                      </audio>
+                    </>
                   )}
-                </>
-              )}
+                </div>
+              </div>
+            ) : (
+              <>
+                {game.is_final_round ? (
+                  <div>
+                    <Final game={game} timer={timer} />
+                  </div>
+                ) : (
+                  <div>
+                    {props.game.settings.logo_url ? (
+                      <img src={`${props.game.settings.logo_url}`} />
+                    ) : (
+                      <TitleLogo insert={props.game.title_text} />
+                    )}
+                    <p className="text-3xl text-center py-12 text-foreground">
+                      {t("Waiting for host to start")}
+                    </p>
+                  </div>
+                )}
+              </>
+            )}
           </>
         ) : (
           <>

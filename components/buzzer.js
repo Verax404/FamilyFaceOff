@@ -176,8 +176,6 @@ export default function Buzzer(props) {
             <div className="flex-col items-center justify-center min-h-screen">
               {!game.title && !game.is_final_round ? (
                 <div className="pt-8 flex flex-col space-y-5">
-                  {/*<Round game={game} />*/}
-
                   {/* BUZZER BUTTON */}
                   <div
                     className="center-container"
@@ -214,29 +212,7 @@ export default function Buzzer(props) {
                         </audio>
                       </>
                     )}
-                    { /*
-                    <p className="text-secondary-900 p-2 italic">
-                      {t("buzzer is reset between rounds")}
-                    </p>
-                    <button id="play">Play</button>
-                    {error !== "" ? (
-                      <p className="text-2xl text-failure-700">{error}</p>
-                    ) : null}*/
-                    }
                   </div>
-                  {/* END Buzzer Section TODO replace with function*/}
-                  <div className="flex flex-row justify-between min-w-full space-x-3">
-                    {/* TEAM NAME
-                  <TeamName game={game} team={0} />
-                  <TeamName game={game} team={1} />
-                */}
-                  </div>
-
-                  {/* HIDES ANSWERS BOARD FROM PLAYER ------------
-                <div className="">
-                  <QuestionBoard round={game.rounds[game.round]} />
-                </div>
-              */}
                 </div>
               ) : (
                 <>

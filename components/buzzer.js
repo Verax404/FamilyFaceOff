@@ -33,6 +33,11 @@ export default function Buzzer(props) {
     }, 5000);
   }
 
+  window.addEventListener("scroll", (e) => {
+    e.preventDefault();
+    window.scrollTo(0, 0);
+  });
+
   (function () {
     // Check if the browser supports web audio. Safari wants a prefix.
     if ("AudioContext" in window || "webkitAudioContext" in window) {
@@ -76,14 +81,13 @@ export default function Buzzer(props) {
         };
       }
 
-
       //////////////////////////////////////////////////
       // Here's the part for unlocking the audio context, probably for iOS only
       //////////////////////////////////////////////////
 
       // From https://paulbakaus.com/tutorials/html5/web-audio-on-ios/
       // "The only way to unmute the Web Audio context is to call noteOn() right after a user interaction. This can be a click or any of the touch events (AFAIK – I only tested click and touchstart)."
-/*
+      /*
       var unmute = document.getElementById("unmute");
       unmute.addEventListener("click", unlock);
 
@@ -203,6 +207,13 @@ export default function Buzzer(props) {
     console.debug(game);
     return (
       <>
+        <style>
+          {`
+        body {
+          overflow: ${buzzed ? "hidden" : "auto"};
+        }
+      `}
+        </style>
         <button
           className="shadow-md rounded-lg p-2 hover:bg-red-300 text-1xl font-bold uppercase w-24 self-end"
           style={{ background: "#D6D58E" }}
@@ -235,19 +246,19 @@ export default function Buzzer(props) {
                     </>
                   ) : (
                     <>
-                    <img
-                      className="cursor-pointer"
-                      style={{ width: "100%", display: "inline-block" }}
-                      onClick={() => {
-                        send({ action: "buzz", id: props.id });
-                        if (audioRef.current) {
-                          audioRef.current.play().catch((error) => {
-                            // Handle play error if necessary
-                            console.error("Audio playback error:", error);
-                          });
-                        }
-                      }}
-                      src="buzz.svg"
+                      <img
+                        className="cursor-pointer"
+                        style={{ width: "100%", display: "inline-block" }}
+                        onClick={() => {
+                          send({ action: "buzz", id: props.id });
+                          if (audioRef.current) {
+                            audioRef.current.play().catch((error) => {
+                              // Handle play error if necessary
+                              console.error("Audio playback error:", error);
+                            });
+                          }
+                        }}
+                        src="buzz.svg"
                       />
                       <audio ref={audioRef} autoPlay={false}>
                         <source src={BUZZER_SOUND} type="audio/mp3" />

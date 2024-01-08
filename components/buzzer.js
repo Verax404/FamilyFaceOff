@@ -153,7 +153,7 @@ export default function Buzzer(props) {
           display: flex;
           align-items: center;
           justify-content: center;
-          height: 100vh;
+          height: 75vh;
         }
         
         .center-container img {
@@ -173,7 +173,6 @@ export default function Buzzer(props) {
         </button>
         {buzzerReg !== null ? (
           <>
-            <div className="flex-col items-center justify-center min-h-screen">
               {!game.title && !game.is_final_round ? (
                 <div className="pt-8 flex flex-col space-y-5">
                   {/* BUZZER BUTTON */}
@@ -234,7 +233,6 @@ export default function Buzzer(props) {
                   )}
                 </>
               )}
-            </div>
           </>
         ) : (
           <>

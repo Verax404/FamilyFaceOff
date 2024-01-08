@@ -22,6 +22,7 @@ export default function Buzzer(props) {
   const [buzzerReg, setBuzzerReg] = useState(null);
   const [error, setErrorVal] = useState("");
   const [timer, setTimer] = useState(0);
+
   let refreshCounter = 0;
 
   function setError(e) {
@@ -30,6 +31,25 @@ export default function Buzzer(props) {
       setErrorVal("");
     }, 5000);
   }
+
+  const toggleAudio = (elem) => {
+    const icon = elem.find("i");
+    const playing = _.include(icon.attr("class").split(" "), "icon-pause");
+
+    if (playing) {
+      elem.html("<i class='icon-play'></i> " + t("play_audio"));
+      App.play_audio_toggle = false;
+    } else {
+      App.audio_file.load();
+      elem.html("<i class='icon-pause'></i> " + t("pause_audio"));
+      App.play_audio_toggle = true;
+
+      // Play the audio if the user has clicked
+      if (App.play_audio_toggle) {
+        App.audio_file.play();
+      }
+    }
+  };
 
   let game = props.game;
   let ws = props.ws;
@@ -146,8 +166,14 @@ export default function Buzzer(props) {
                       />
                       <audio autoPlay>
                         <source src={BUZZER_SOUND} type="audio/mp3" />
-                        {console.debug('BUZZED')}
+                        {console.debug("BUZZED")}
                       </audio>
+                      {/* Button to toggle audio */}
+                      <button onClick={() => toggleAudio(elem)}>
+                        {App.play_audio_toggle
+                          ? t("pause_audio")
+                          : t("play_audio")}
+                      </button>
                     </>
                   ) : (
                     <img

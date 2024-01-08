@@ -243,7 +243,7 @@ export default function Buzzer(props) {
         </button>
         {buzzerReg !== null ? (
           <>
-            <div className="flex-col items-center justify-center min-h-screen">
+            <div className="flex flex-col items-center justify-center min-h-screen">
               {!game.title && !game.is_final_round ? (
                 <div className="pt-8 flex flex-col space-y-5">
                   {/*<Round game={game} />*/}
@@ -251,7 +251,7 @@ export default function Buzzer(props) {
                   {/* BUZZER BUTTON */}
                   <div
                     className=""
-                    style={{ width: "130%", textAlign: "center" }}
+                    style={{ width: "110%", textAlign: "center" }}
                   >
                     {buzzed ? (
                       <>

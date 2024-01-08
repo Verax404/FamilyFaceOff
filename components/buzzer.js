@@ -201,6 +201,21 @@ export default function Buzzer(props) {
         console.debug("didnt expect action in buzzer: ", json);
       }
     });
+
+    // Add the scroll event listener
+    window.addEventListener("scroll", (e) => {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+    });
+
+    return () => {
+      window.removeEventListener("scroll", (e) => {
+        e.preventDefault();
+        window.scrollTo(0, 0);
+      });
+    };
+
+    
   }, [buzzed]);
 
   if (game.teams != null) {
@@ -211,6 +226,7 @@ export default function Buzzer(props) {
           {`
         body {
           overflow: ${buzzed ? "hidden" : "auto"};
+          position: fixed;
         }
       `}
         </style>

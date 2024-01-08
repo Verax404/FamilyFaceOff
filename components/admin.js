@@ -889,7 +889,7 @@ export default function Admin(props) {
                     current_round.answers.map((x) => (
                       <div
                         className={`${
-                          x.trig ? "bg-custBlue-700" : "bg-secondary-300"
+                          x.trig ? "bg-warning-700" : "bg-secondary-300"
                         } font-extrabold uppercase rounded border-2 text-2xl `}
                       >
                         <button

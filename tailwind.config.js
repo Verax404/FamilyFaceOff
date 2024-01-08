@@ -59,6 +59,7 @@ module.exports = {
               200: "#1D7373",
             },
             custYellow: "#D6D58E",
+            blacky: "#000000",
             foreground: "white",
             cturquoise: "#005C53",
             cgreen: "#9FC131",

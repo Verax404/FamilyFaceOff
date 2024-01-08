@@ -155,6 +155,11 @@ export default function Buzzer(props) {
           justify-content: center;
           height: 100vh;
         }
+        
+        .center-container img {
+          max-width: 100%;
+          height: auto;
+        }
       `}
         </style>
         <button

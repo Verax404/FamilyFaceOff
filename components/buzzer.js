@@ -243,88 +243,90 @@ export default function Buzzer(props) {
         </button>
         {buzzerReg !== null ? (
           <>
-            {!game.title && !game.is_final_round ? (
-              <div className="pt-8 flex flex-col space-y-5">
-                {/*<Round game={game} />*/}
+            <div className="flex-col items-center justify-center min-h-screen">
+              {!game.title && !game.is_final_round ? (
+                <div className="pt-8 flex flex-col space-y-5">
+                  {/*<Round game={game} />*/}
 
-                {/* BUZZER BUTTON */}
-                <div
-                  className=""
-                  style={{ width: "100%", textAlign: "center" }}
-                >
-                  {buzzed ? (
-                    <>
-                      <img
-                        style={{ width: "100%", display: "inline-block" }}
-                        src="buzzed.svg"
-                      />
-                      <audio ref={audioRef} autoPlay={false}>
-                        <source src={BUZZER_SOUND} type="audio/mp3" />
-                      </audio>
-                    </>
-                  ) : (
-                    <>
-                      <img
-                        className="cursor-pointer"
-                        style={{ width: "100%", display: "inline-block" }}
-                        onClick={() => {
-                          send({ action: "buzz", id: props.id });
-                          if (audioRef.current) {
-                            audioRef.current.play().catch((error) => {
-                              // Handle play error if necessary
-                              console.error("Audio playback error:", error);
-                            });
-                          }
-                        }}
-                        src="buzz.svg"
-                      />
-                      <audio ref={audioRef} autoPlay={false}>
-                        <source src={BUZZER_SOUND} type="audio/mp3" />
-                      </audio>
-                    </>
-                  )}
-                  <p className="text-secondary-900 p-2 italic">
-                    {t("buzzer is reset between rounds")}
-                  </p>
-                  <button id="play">Play</button>
-                  {error !== "" ? (
-                    <p className="text-2xl text-failure-700">{error}</p>
-                  ) : null}
-                </div>
-                {/* END Buzzer Section TODO replace with function*/}
-                <div className="flex flex-row justify-between min-w-full space-x-3">
-                  {/* TEAM NAME
+                  {/* BUZZER BUTTON */}
+                  <div
+                    className=""
+                    style={{ width: "130%", textAlign: "center" }}
+                  >
+                    {buzzed ? (
+                      <>
+                        <img
+                          style={{ width: "100%", display: "inline-block" }}
+                          src="buzzed.svg"
+                        />
+                        <audio ref={audioRef} autoPlay={false}>
+                          <source src={BUZZER_SOUND} type="audio/mp3" />
+                        </audio>
+                      </>
+                    ) : (
+                      <>
+                        <img
+                          className="cursor-pointer"
+                          style={{ width: "100%", display: "inline-block" }}
+                          onClick={() => {
+                            send({ action: "buzz", id: props.id });
+                            if (audioRef.current) {
+                              audioRef.current.play().catch((error) => {
+                                // Handle play error if necessary
+                                console.error("Audio playback error:", error);
+                              });
+                            }
+                          }}
+                          src="buzz.svg"
+                        />
+                        <audio ref={audioRef} autoPlay={false}>
+                          <source src={BUZZER_SOUND} type="audio/mp3" />
+                        </audio>
+                      </>
+                    )}
+                    <p className="text-secondary-900 p-2 italic">
+                      {t("buzzer is reset between rounds")}
+                    </p>
+                    <button id="play">Play</button>
+                    {error !== "" ? (
+                      <p className="text-2xl text-failure-700">{error}</p>
+                    ) : null}
+                  </div>
+                  {/* END Buzzer Section TODO replace with function*/}
+                  <div className="flex flex-row justify-between min-w-full space-x-3">
+                    {/* TEAM NAME
                   <TeamName game={game} team={0} />
                   <TeamName game={game} team={1} />
                 */}
-                </div>
+                  </div>
 
-                {/* HIDES ANSWERS BOARD FROM PLAYER ------------
+                  {/* HIDES ANSWERS BOARD FROM PLAYER ------------
                 <div className="">
                   <QuestionBoard round={game.rounds[game.round]} />
                 </div>
               */}
-              </div>
-            ) : (
-              <>
-                {game.is_final_round ? (
-                  <div>
-                    <Final game={game} timer={timer} />
-                  </div>
-                ) : (
-                  <div>
-                    {props.game.settings.logo_url ? (
-                      <img src={`${props.game.settings.logo_url}`} />
-                    ) : (
-                      <TitleLogo insert={props.game.title_text} />
-                    )}
-                    <p className="text-3xl text-center py-12 text-foreground">
-                      {t("Waiting for host to start")}
-                    </p>
-                  </div>
-                )}
-              </>
-            )}
+                </div>
+              ) : (
+                <>
+                  {game.is_final_round ? (
+                    <div>
+                      <Final game={game} timer={timer} />
+                    </div>
+                  ) : (
+                    <div>
+                      {props.game.settings.logo_url ? (
+                        <img src={`${props.game.settings.logo_url}`} />
+                      ) : (
+                        <TitleLogo insert={props.game.title_text} />
+                      )}
+                      <p className="text-3xl text-center py-12 text-foreground">
+                        {t("Waiting for host to start")}
+                      </p>
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
           </>
         ) : (
           <>
